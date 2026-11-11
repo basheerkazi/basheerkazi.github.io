@@ -1,0 +1,24 @@
+---
+layout: default
+title: Basheer Kazi
+---
+<section class="hero">
+  <h1>Clear, practical guidance on school education, career choices and skills</h1>
+  <p>Free help for families in Maharashtra, from someone who has spent 20+ years building schools, coaching institutes and learning organisations in Pune.</p>
+  <a class="btn" href="{{ '/boards-2027/' | relative_url }}">Boards 2027 Help Desk</a>
+</section>
+
+<a class="card" href="{{ '/boards-2027/' | relative_url }}">
+  <h3>Class 10 or 12 at home this year?</h3>
+  <p>Key 2027 board dates, the board's own sample papers, free textbook PDFs and free chapter-wise solutions, all in one place and updated every Monday.</p>
+</a>
+
+<h2>Latest posts</h2>
+<ul class="postlist">
+{% for post in site.posts limit:6 %}
+  <li><span class="meta">{{ post.date | date: "%-d %b %Y" }}</span><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+<p><a href="{{ '/blog/' | relative_url }}">All posts</a></p>
+
+{% include subscribe.html %}

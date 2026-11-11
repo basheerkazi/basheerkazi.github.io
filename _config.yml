@@ -1,0 +1,17 @@
+title: Basheer Kazi
+tagline: Clear, practical guidance on school education, career choices and skills
+description: Free, practical guidance for Maharashtra families on board exams, school choices, careers and skills. By Basheer Kazi, Pune, 20+ years in education.
+url: https://basheerkazi.github.io
+baseurl: ""
+lang: en
+author: Basheer Kazi
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+feed:
+  path: feed.xml
+exclude:
+  - README.md
