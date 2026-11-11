@@ -4,8 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
-The easiest way to reach me is through my Topmate page, where you can also book a one-to-one session:
+**Email:** [business.synergist+boards@gmail.com](mailto:business.synergist+boards@gmail.com)
 
-**[topmate.io/basheerkazi](https://topmate.io/basheerkazi)**
+**Book a one-to-one session:** [topmate.io/basheerkazi](https://topmate.io/basheerkazi)
 
-Teachers and parents asking for a free copy of the Board Exam Countdown Kit for a deserving student: send the student's class (10th or 12th) and a parent's contact. No proof is needed, and names stay private.
+Teachers and parents asking for a free copy of the Board Exam Countdown Kit for a deserving student: email the student's class (10th or 12th) and a parent's contact. No proof is needed, and names stay private.
