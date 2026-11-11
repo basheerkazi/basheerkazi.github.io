@@ -9,7 +9,7 @@ a{color:var(--navy);text-underline-offset:3px}
 nav a{color:#e3eaf3;text-decoration:none;margin-left:16px;font-size:15px}
 nav a:first-child{margin-left:0}
 nav a.hl{color:#fff;background:var(--orange);padding:4px 12px;border-radius:20px;font-weight:600}
-main{padding:28px 20px 40px}
+main.wrap{padding:28px 20px 40px}
 h1{color:var(--navy);line-height:1.2;font-size:32px;margin:8px 0 12px}
 h2{color:var(--navy);font-size:22px;margin-top:34px;border-bottom:3px solid var(--orange);padding-bottom:4px}
 h3{color:var(--orange);font-size:18px;margin-bottom:4px}
