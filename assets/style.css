@@ -36,3 +36,8 @@ td{border:1px solid var(--line);padding:8px;vertical-align:top}
 .site-footer{border-top:1px solid var(--line);padding:20px 0 30px;color:var(--muted);font-size:15px}
 .back{margin-top:30px}
 @media (max-width:520px){h1{font-size:26px}nav a{margin-left:10px;font-size:14px}}
+.subform{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 4px}
+.subform input{flex:1 1 220px;min-width:0;height:46px;padding:0 14px;border:2px solid var(--line);border-radius:8px;font-size:16px;background:#fff}
+.subform input:focus{outline:none;border-color:var(--orange)}
+.subform button{flex:0 0 auto;height:46px;padding:0 22px;border:0;border-radius:8px;background:var(--orange);color:#fff;font-weight:700;font-size:16px;cursor:pointer}
+.subform button:hover{background:#d4771d}
