@@ -1,5 +1,42 @@
 {
  "version": 1,
- "updated": "2026-11-11T21:12:07+05:30",
- "authorities": []
+ "updated": "2026-11-11T21:26:03+05:30",
+ "authorities": [
+  {
+   "id": "pune-markazi",
+   "name": {
+    "en": "Pune · Markazi Ruyat-e-Hilal Committee of Ulama",
+    "hi": "पुणे · मरकज़ी रुयत-ए-हिलाल कमेटी",
+    "ur": "پونے · مرکزی رویت ہلال کمیٹی"
+   },
+   "starts": []
+  },
+  {
+   "id": "mumbai-jama-masjid",
+   "name": {
+    "en": "Mumbai · Jama Masjid Markazi Ruyat-e-Hilal Committee",
+    "hi": "मुंबई · जामा मस्जिद मरकज़ी रुयत-ए-हिलाल कमेटी",
+    "ur": "ممبئی · جامع مسجد مرکزی رویت ہلال کمیٹی"
+   },
+   "starts": []
+  },
+  {
+   "id": "delhi-imarat-shariah-hind",
+   "name": {
+    "en": "Delhi · Imarat-e-Shariah Hind (Jamiat Ulama-e-Hind)",
+    "hi": "दिल्ली · इमारत-ए-शरिया हिंद (जमीयत उलमा-ए-हिंद)",
+    "ur": "دہلی · امارت شرعیہ ہند (جمعیت علمائے ہند)"
+   },
+   "starts": []
+  },
+  {
+   "id": "kerala-qazis",
+   "name": {
+    "en": "Kerala · Qazis",
+    "hi": "केरल · क़ाज़ी",
+    "ur": "کیرالا · قاضی"
+   },
+   "starts": []
+  }
+ ]
 }
