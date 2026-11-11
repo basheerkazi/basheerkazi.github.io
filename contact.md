@@ -4,6 +4,10 @@ title: Contact
 permalink: /contact/
 ---
 
+**WhatsApp:** +91 86258 27688
+
+{% include whatsapp.html %}
+
 **Email:** [business.synergist+boards@gmail.com](mailto:business.synergist+boards@gmail.com)
 
 **Book a one-to-one session:** [topmate.io/basheerkazi](https://topmate.io/basheerkazi)

@@ -44,4 +44,8 @@ Most families start planning in January, when time is already short. The **Board
 
 **Free copies for deserving students:** if a family cannot afford the kit, a teacher or the parent can [message me](/contact/) and I will send it free. No proof needed, and names stay private.
 
+**Questions about your child's boards?** Message me on WhatsApp.
+
+{% include whatsapp.html %}
+
 {% include subscribe.html %}

@@ -41,3 +41,5 @@ td{border:1px solid var(--line);padding:8px;vertical-align:top}
 .subform input:focus{outline:none;border-color:var(--orange)}
 .subform button{flex:0 0 auto;height:46px;padding:0 22px;border:0;border-radius:8px;background:var(--orange);color:#fff;font-weight:700;font-size:16px;cursor:pointer}
 .subform button:hover{background:#d4771d}
+.btn.wa{background:#25D366;color:#fff}
+.btn.wa:hover{background:#1ebe5b}
