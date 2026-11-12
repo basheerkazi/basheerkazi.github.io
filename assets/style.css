@@ -47,3 +47,22 @@ td{border:1px solid var(--line);padding:8px;vertical-align:top}
 .kitbox h3{margin:2px 0 8px;color:var(--navy)}
 .kitbox .kitkick{font-size:13px;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:.3px;margin:0}
 .kitbox .btn{margin-right:8px}
+/* language switcher */
+.nav nav{margin-inline-start:auto}
+.langs{position:relative}
+.langs summary{list-style:none;cursor:pointer;color:#fff;border:1px solid rgba(255,255,255,.5);border-radius:18px;padding:3px 12px;font-size:14px;white-space:nowrap}
+.langs summary::-webkit-details-marker{display:none}
+.langmenu{position:absolute;inset-inline-end:0;top:calc(100% + 6px);background:#fff;border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,.18);padding:6px;min-width:140px;z-index:10}
+.langmenu a{display:block;color:var(--ink);text-decoration:none;padding:7px 12px;border-radius:6px;font-size:16px}
+.langmenu a:hover{background:var(--soft)}
+.langmenu a.cur{font-weight:700;color:var(--orange)}
+/* scripts */
+html[lang=mr] body,html[lang=hi] body{font-family:system-ui,-apple-system,"Segoe UI","Noto Sans Devanagari","Nirmala UI",Mangal,sans-serif}
+html[lang=ur] body{font-family:"Noto Nastaliq Urdu","Jameel Noori Nastaleeq","Noto Naskh Arabic","Segoe UI",Tahoma,sans-serif;line-height:2.1}
+html[lang=ur] h1,html[lang=ur] h2,html[lang=ur] h3{line-height:1.8}
+/* right-to-left */
+[dir=rtl] nav a{margin-left:0;margin-right:16px}
+[dir=rtl] nav a:first-child{margin-right:0}
+[dir=rtl] th{text-align:right}
+[dir=rtl] .kitbox .btn{margin-right:0;margin-left:8px}
+[dir=rtl] .brand{direction:ltr}

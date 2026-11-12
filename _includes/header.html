@@ -1,12 +1,18 @@
-<header class="site-header">
+{% include t.html %}<header class="site-header">
   <div class="wrap nav">
-    <a class="brand" href="{{ '/' | relative_url }}">Basheer Kazi</a>
+    <a class="brand" href="{{ t.prefix | append: '/' | relative_url }}">Basheer Kazi</a>
     <nav>
-      <a href="{{ '/boards-2027/' | relative_url }}" class="hl">Boards 2027</a>
-      <a href="{{ '/career-clarity/' | relative_url }}">Careers</a>
-      <a href="{{ '/blog/' | relative_url }}">Blog</a>
-      <a href="{{ '/about/' | relative_url }}">About</a>
-      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      <a href="{{ t.prefix | append: '/boards-2027/' | relative_url }}" class="hl">{{ t.nav_boards }}</a>
+      <a href="{{ t.prefix | append: '/career-clarity/' | relative_url }}">{{ t.nav_careers }}</a>
+      <a href="{{ '/blog/' | relative_url }}">{{ t.nav_blog }}</a>
+      <a href="{{ '/about/' | relative_url }}">{{ t.nav_about }}</a>
+      <a href="{{ t.prefix | append: '/contact/' | relative_url }}">{{ t.nav_contact }}</a>
     </nav>
+    <details class="langs">
+      <summary aria-label="{{ t.lang_label }}">🌐 {{ t.name }}</summary>
+      <div class="langmenu">{% for code in site.data.langs %}{% assign target = nil %}{% if page.ref %}{% assign target = site.pages | where: "ref", page.ref | where: "lang", code | first %}{% endif %}{% if target %}{% assign u = target.url %}{% else %}{% assign u = site.data.i18n[code].prefix | append: '/' %}{% endif %}
+        <a href="{{ u | relative_url }}" lang="{{ code }}"{% if code == L %} class="cur"{% endif %}>{{ site.data.i18n[code].name }}</a>{% endfor %}
+      </div>
+    </details>
   </div>
 </header>

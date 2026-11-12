@@ -1,9 +1,9 @@
-<section class="subscribe" id="subscribe">
-  <h2>Get one short email every Monday</h2>
-  <p>Board deadlines for the week, one 10-minute task for parents and one free resource. Free, no spam, unsubscribe anytime.</p>
+{% include t.html %}<section class="subscribe" id="subscribe">
+  <h2>{{ t.sub_title }}</h2>
+  <p>{{ t.sub_desc }}</p>
   <form class="subform" action="https://api.follow.it/subscription-form/bTRYL24wcWZGUkcvVzNYNWtScU1mRG9vbUR5VHJIVTM0TFB3dDk5ZHA4bUJIN1VjUGJXSUJCTFR2ZDdWb2hSUEVnWXlKZXdDYWhVamZTNUNwMkhkUlpMTThUVHhVSkRmNmFTTm9Db0pUVXdvNk56SmJwZmQvT1AzZXgyNWZ6cWx8RzdudmQ3UUxCUjdGNmVBMS9CeU4weDAwTlJRTTU1SXhDOUQ5ZTFHL25KOD0=/8" method="post" target="_blank">
-    <input type="email" name="email" required placeholder="Your email address" aria-label="Your email address">
-    <button type="submit">Subscribe</button>
+    <input type="email" name="email" required placeholder="{{ t.sub_placeholder }}" aria-label="{{ t.sub_placeholder }}">
+    <button type="submit">{{ t.sub_btn }}</button>
   </form>
-  <p class="small">You will get a confirmation email first. Click the link in it to start receiving updates. Emails are sent by <a href="https://follow.it">follow.it</a>.</p>
+  <p class="small">{{ t.sub_note }} <a href="https://follow.it">follow.it</a></p>
 </section>

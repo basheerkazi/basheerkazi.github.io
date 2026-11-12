@@ -1,7 +1,7 @@
-<div class="kitbox">
-  <p class="kitkick">For parents · Class 10 and 12 · Maharashtra Board</p>
-  <h3>Board Exam Countdown Kit 2027</h3>
-  <p>A week-by-week plan from today to the last paper: what to check each Sunday, practicals in January, hall ticket and exam-day checklists, a stream worksheet and a results-week plan. 7 pages, in English, Marathi and Urdu.</p>
-  <p><a class="btn" href="https://topmate.io/basheerkazi/2387069" target="_blank" rel="noopener">Get the Kit · ₹249</a> <span class="small">Launch price till 30 Nov. Instant PDF download.</span></p>
-  <p class="small">Can't afford it? <a href="{{ '/contact/' | relative_url }}">Message me</a> and I'll send it free. No proof needed.</p>
+{% include t.html %}<div class="kitbox">
+  <p class="kitkick">{{ t.kit_kick }}</p>
+  <h3>{{ t.kit_title }}</h3>
+  <p>{{ t.kit_desc }}</p>
+  <p><a class="btn" href="https://topmate.io/basheerkazi/2387069" target="_blank" rel="noopener">{{ t.kit_btn }}</a> <span class="small">{{ t.kit_note }}</span></p>
+  <p class="small">{{ t.kit_free_a }}<a href="{{ t.prefix | append: '/contact/' | relative_url }}">{{ t.kit_free_link }}</a>{{ t.kit_free_b }}</p>
 </div>

@@ -1,0 +1,34 @@
+---
+layout: default
+title: "बशीर काझी"
+lang: mr
+ref: home
+permalink: /mr/
+---
+<section class="hero">
+  <h1>शालेय शिक्षण, करिअर निवड आणि कौशल्ये यांवर स्पष्ट, व्यावहारिक मार्गदर्शन</h1>
+  <p>महाराष्ट्रातील कुटुंबांसाठी मोफत मदत, पुण्यात 20 वर्षांहून अधिक काळ शाळा, कोचिंग संस्था आणि शिक्षण संस्था उभारणाऱ्या व्यक्तीकडून.</p>
+  <a class="btn" href="{{ '/mr/boards-2027/' | relative_url }}">बोर्ड 2027 हेल्प डेस्क</a>
+</section>
+
+<a class="card" href="{{ '/mr/boards-2027/' | relative_url }}">
+  <h3>यंदा घरात 10 वी किंवा 12 वी?</h3>
+  <p>2027 च्या महत्त्वाच्या तारखा, मंडळाच्या नमुना प्रश्नपत्रिका, मोफत पाठ्यपुस्तक PDF आणि प्रकरणनिहाय मोफत उत्तरे, सर्व एकाच ठिकाणी.</p>
+</a>
+
+{% include kit.html %}
+
+<a class="card" href="{{ '/mr/career-clarity/' | relative_url }}">
+  <h3>पदवीधर घरी, नोकरीचा शोध अडकलाय?</h3>
+  <p>पालक आणि पदवीधरांसाठी 60 मिनिटांचे करिअर क्लॅरिटी सत्र. तुम्हाला 30 दिवसांचा लेखी कृती आराखडा मिळतो.</p>
+</a>
+
+<h2>{{ site.data.i18n.mr.posts_title }}</h2>
+<ul class="postlist" lang="en" dir="ltr">
+{% for post in site.posts limit:6 %}
+  <li><span class="meta">{{ post.date | date: "%-d %b %Y" }}</span><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+<p><a href="{{ '/blog/' | relative_url }}">{{ site.data.i18n.mr.all_posts }}</a></p>
+
+{% include subscribe.html %}

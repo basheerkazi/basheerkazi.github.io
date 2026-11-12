@@ -1,0 +1,34 @@
+---
+layout: default
+title: "بشیر قاضی"
+lang: ur
+ref: home
+permalink: /ur/
+---
+<section class="hero">
+  <h1>اسکول کی تعلیم، کیریئر کے انتخاب اور ہنر پر واضح اور عملی رہنمائی</h1>
+  <p>مہاراشٹر کے خاندانوں کے لیے مفت مدد، ایسے شخص کی طرف سے جس نے پونے میں 20 سال سے زیادہ عرصے تک اسکول، کوچنگ ادارے اور تعلیمی ادارے قائم کیے ہیں۔</p>
+  <a class="btn" href="{{ '/ur/boards-2027/' | relative_url }}">بورڈ 2027 ہیلپ ڈیسک</a>
+</section>
+
+<a class="card" href="{{ '/ur/boards-2027/' | relative_url }}">
+  <h3>اس سال گھر میں دسویں یا بارہویں؟</h3>
+  <p>2027 کی اہم تاریخیں، بورڈ کے اپنے نمونہ پرچے، مفت نصابی کتابوں کی PDF اور باب وار مفت حل، سب ایک جگہ۔</p>
+</a>
+
+{% include kit.html %}
+
+<a class="card" href="{{ '/ur/career-clarity/' | relative_url }}">
+  <h3>گریجویٹ گھر پر، نوکری کی تلاش رکی ہوئی ہے؟</h3>
+  <p>والدین اور گریجویٹس کے لیے 60 منٹ کا کیریئر کلیرٹی سیشن۔ آپ کو 30 دن کا تحریری لائحہ عمل ملتا ہے۔</p>
+</a>
+
+<h2>{{ site.data.i18n.ur.posts_title }}</h2>
+<ul class="postlist" lang="en" dir="ltr">
+{% for post in site.posts limit:6 %}
+  <li><span class="meta">{{ post.date | date: "%-d %b %Y" }}</span><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+<p><a href="{{ '/blog/' | relative_url }}">{{ site.data.i18n.ur.all_posts }}</a></p>
+
+{% include subscribe.html %}

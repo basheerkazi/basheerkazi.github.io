@@ -1,0 +1,34 @@
+---
+layout: default
+title: "बशीर काज़ी"
+lang: hi
+ref: home
+permalink: /hi/
+---
+<section class="hero">
+  <h1>स्कूली शिक्षा, करियर के चुनाव और कौशल पर साफ़ और व्यावहारिक मार्गदर्शन</h1>
+  <p>महाराष्ट्र के परिवारों के लिए मुफ़्त मदद, उस व्यक्ति से जिसने पुणे में 20 से ज़्यादा वर्षों तक स्कूल, कोचिंग संस्थान और शिक्षण संस्थाएँ खड़ी की हैं।</p>
+  <a class="btn" href="{{ '/hi/boards-2027/' | relative_url }}">बोर्ड 2027 हेल्प डेस्क</a>
+</section>
+
+<a class="card" href="{{ '/hi/boards-2027/' | relative_url }}">
+  <h3>इस साल घर में 10वीं या 12वीं?</h3>
+  <p>2027 की ज़रूरी तारीख़ें, बोर्ड के अपने सैंपल पेपर, मुफ़्त पाठ्यपुस्तक PDF और अध्याय-वार मुफ़्त हल, सब एक जगह।</p>
+</a>
+
+{% include kit.html %}
+
+<a class="card" href="{{ '/hi/career-clarity/' | relative_url }}">
+  <h3>ग्रेजुएट घर पर, नौकरी की तलाश अटकी है?</h3>
+  <p>अभिभावकों और ग्रेजुएट्स के लिए 60 मिनट का करियर क्लैरिटी सेशन। आपको 30 दिन की लिखित कार्य-योजना मिलती है।</p>
+</a>
+
+<h2>{{ site.data.i18n.hi.posts_title }}</h2>
+<ul class="postlist" lang="en" dir="ltr">
+{% for post in site.posts limit:6 %}
+  <li><span class="meta">{{ post.date | date: "%-d %b %Y" }}</span><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+<p><a href="{{ '/blog/' | relative_url }}">{{ site.data.i18n.hi.all_posts }}</a></p>
+
+{% include subscribe.html %}

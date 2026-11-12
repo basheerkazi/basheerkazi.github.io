@@ -1,4 +1,6 @@
 ---
+lang: en
+ref: boards
 layout: page
 title: Boards 2027 Help Desk
 permalink: /boards-2027/

@@ -1,4 +1,6 @@
 ---
+lang: en
+ref: home
 layout: default
 title: Basheer Kazi
 ---
@@ -20,7 +22,7 @@ title: Basheer Kazi
   <p>A 60-minute Career Clarity Session for parents and graduates. You leave with a written 30-day action plan.</p>
 </a>
 
-<h2>Latest posts</h2>
+<h2>{{ site.data.i18n.en.posts_title }}</h2>
 <ul class="postlist">
 {% for post in site.posts limit:6 %}
   <li><span class="meta">{{ post.date | date: "%-d %b %Y" }}</span><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>

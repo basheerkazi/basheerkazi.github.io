@@ -1,4 +1,6 @@
 ---
+lang: en
+ref: careers
 layout: page
 title: Career Clarity Session
 permalink: /career-clarity/

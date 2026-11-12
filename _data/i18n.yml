@@ -1,0 +1,108 @@
+en:
+  name: English
+  nav_boards: Boards 2027
+  nav_careers: Careers
+  nav_blog: Blog
+  nav_about: About
+  nav_contact: Contact
+  kit_kick: For parents · Class 10 and 12 · Maharashtra Board
+  kit_title: Board Exam Countdown Kit 2027
+  kit_desc: 'A week-by-week plan from today to the last paper: what to check each Sunday, practicals in January, hall ticket and exam-day checklists, a stream worksheet and a results-week plan. 7 pages, in English, Marathi and Urdu.'
+  kit_btn: Get the Kit · ₹249
+  kit_note: Launch price till 30 Nov. Instant PDF download.
+  kit_free_a: 'Can''t afford it? '
+  kit_free_link: Message me
+  kit_free_b: ' and I''ll send it free. No proof needed.'
+  sub_title: Get one short email every Monday
+  sub_desc: Board deadlines for the week, one 10-minute task for parents and one free resource. Free, no spam, unsubscribe anytime.
+  sub_placeholder: Your email address
+  sub_btn: Subscribe
+  sub_note: You will get a confirmation email first. Click the link in it to start receiving updates.
+  wa_btn: WhatsApp me
+  wa_text: 'Hi Basheer Sir, my child is in Class ___ (10th/12th). My biggest worry is: '
+  posts_title: Latest posts
+  all_posts: All posts
+  lang_label: Language
+  wa_url: https://wa.me/918625827688?text=Hi%20Basheer%20Sir%2C%20my%20child%20is%20in%20Class%20___%20%2810th%2F12th%29.%20My%20biggest%20worry%20is%3A%20
+  prefix: ''
+mr:
+  name: मराठी
+  nav_boards: बोर्ड 2027
+  nav_careers: करिअर
+  nav_blog: ब्लॉग
+  nav_about: माझ्याबद्दल
+  nav_contact: संपर्क
+  kit_kick: पालकांसाठी · इयत्ता 10 वी आणि 12 वी · महाराष्ट्र बोर्ड
+  kit_title: बोर्ड परीक्षा काउंटडाउन किट 2027
+  kit_desc: 'आजपासून शेवटच्या पेपरपर्यंत आठवड्यानुसार नियोजन: दर रविवारी काय तपासायचे, जानेवारीतील प्रात्यक्षिके, हॉल तिकीट आणि परीक्षेच्या दिवसाची चेकलिस्ट, शाखा निवडीसाठी वर्कशीट आणि निकालाच्या आठवड्याचे नियोजन. 7 पाने, इंग्रजी, मराठी आणि उर्दूमध्ये.'
+  kit_btn: किट घ्या · ₹249
+  kit_note: 30 नोव्हेंबरपर्यंत लाँच किंमत. PDF लगेच डाउनलोड.
+  kit_free_a: 'परवडत नाही? '
+  kit_free_link: मला मेसेज करा
+  kit_free_b: ', मी ते मोफत पाठवेन. कोणताही पुरावा लागणार नाही.'
+  sub_title: दर सोमवारी एक छोटा ईमेल
+  sub_desc: आठवड्यातील बोर्डाच्या मुदती, पालकांसाठी 10 मिनिटांचे एक काम आणि एक मोफत साधन. मोफत, स्पॅम नाही, कधीही बंद करता येईल. (ईमेल इंग्रजीत असतील.)
+  sub_placeholder: तुमचा ईमेल पत्ता
+  sub_btn: सबस्क्राइब करा
+  sub_note: आधी एक पुष्टी ईमेल येईल. त्यातील लिंकवर क्लिक केल्यावर अपडेट्स सुरू होतील.
+  wa_btn: WhatsApp वर मेसेज करा
+  wa_text: 'नमस्कार बशीर सर, माझे मूल इयत्ता ___ (10 वी/12 वी) मध्ये आहे. माझी सर्वात मोठी काळजी: '
+  posts_title: ताजे लेख (इंग्रजीत)
+  all_posts: सर्व लेख
+  lang_label: भाषा
+  wa_url: https://wa.me/918625827688?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%BE%E0%A4%B0%20%E0%A4%AC%E0%A4%B6%E0%A5%80%E0%A4%B0%20%E0%A4%B8%E0%A4%B0%2C%20%E0%A4%AE%E0%A4%BE%E0%A4%9D%E0%A5%87%20%E0%A4%AE%E0%A5%82%E0%A4%B2%20%E0%A4%87%E0%A4%AF%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BE%20___%20%2810%20%E0%A4%B5%E0%A5%80%2F12%20%E0%A4%B5%E0%A5%80%29%20%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A5%87%20%E0%A4%86%E0%A4%B9%E0%A5%87.%20%E0%A4%AE%E0%A4%BE%E0%A4%9D%E0%A5%80%20%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A4%20%E0%A4%AE%E0%A5%8B%E0%A4%A0%E0%A5%80%20%E0%A4%95%E0%A4%BE%E0%A4%B3%E0%A4%9C%E0%A5%80%3A%20
+  prefix: /mr
+hi:
+  name: हिंदी
+  nav_boards: बोर्ड 2027
+  nav_careers: करियर
+  nav_blog: ब्लॉग
+  nav_about: परिचय
+  nav_contact: संपर्क
+  kit_kick: अभिभावकों के लिए · कक्षा 10वीं और 12वीं · महाराष्ट्र बोर्ड
+  kit_title: बोर्ड परीक्षा काउंटडाउन किट 2027
+  kit_desc: 'आज से आख़िरी पेपर तक हफ़्ते-दर-हफ़्ते योजना: हर रविवार क्या जाँचना है, जनवरी के प्रैक्टिकल, हॉल टिकट और परीक्षा के दिन की चेकलिस्ट, स्ट्रीम चुनने की वर्कशीट और रिज़ल्ट वाले हफ़्ते की योजना। 7 पेज, अंग्रेज़ी, मराठी और उर्दू में।'
+  kit_btn: किट लें · ₹249
+  kit_note: लॉन्च कीमत 30 नवंबर तक। PDF तुरंत डाउनलोड।
+  kit_free_a: 'ख़र्च नहीं उठा सकते? '
+  kit_free_link: मुझे मैसेज करें
+  kit_free_b: ', मैं इसे मुफ़्त भेज दूँगा। कोई सबूत नहीं चाहिए।'
+  sub_title: हर सोमवार एक छोटा ईमेल
+  sub_desc: हफ़्ते की बोर्ड की तारीख़ें, अभिभावकों के लिए 10 मिनट का एक काम और एक मुफ़्त संसाधन। मुफ़्त, कोई स्पैम नहीं, कभी भी बंद करें। (ईमेल अंग्रेज़ी में होंगे।)
+  sub_placeholder: आपका ईमेल पता
+  sub_btn: सब्सक्राइब करें
+  sub_note: पहले एक पुष्टि ईमेल आएगा। उसकी लिंक पर क्लिक करते ही अपडेट शुरू हो जाएँगे।
+  wa_btn: WhatsApp पर मैसेज करें
+  wa_text: 'नमस्ते बशीर सर, मेरा बच्चा कक्षा ___ (10वीं/12वीं) में है। मेरी सबसे बड़ी चिंता: '
+  posts_title: ताज़ा लेख (अंग्रेज़ी में)
+  all_posts: सभी लेख
+  lang_label: भाषा
+  wa_url: https://wa.me/918625827688?text=%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20%E0%A4%AC%E0%A4%B6%E0%A5%80%E0%A4%B0%20%E0%A4%B8%E0%A4%B0%2C%20%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A4%BE%20%E0%A4%AC%E0%A4%9A%E0%A5%8D%E0%A4%9A%E0%A4%BE%20%E0%A4%95%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%20___%20%2810%E0%A4%B5%E0%A5%80%E0%A4%82%2F12%E0%A4%B5%E0%A5%80%E0%A4%82%29%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%B9%E0%A5%88%E0%A5%A4%20%E0%A4%AE%E0%A5%87%E0%A4%B0%E0%A5%80%20%E0%A4%B8%E0%A4%AC%E0%A4%B8%E0%A5%87%20%E0%A4%AC%E0%A4%A1%E0%A4%BC%E0%A5%80%20%E0%A4%9A%E0%A4%BF%E0%A4%82%E0%A4%A4%E0%A4%BE%3A%20
+  prefix: /hi
+ur:
+  name: اردو
+  nav_boards: بورڈ 2027
+  nav_careers: کیریئر
+  nav_blog: بلاگ
+  nav_about: تعارف
+  nav_contact: رابطہ
+  kit_kick: والدین کے لیے · دسویں اور بارہویں جماعت · مہاراشٹر بورڈ
+  kit_title: بورڈ امتحان کاؤنٹ ڈاؤن کٹ 2027
+  kit_desc: 'آج سے آخری پرچے تک ہفتہ وار منصوبہ: ہر اتوار کیا دیکھنا ہے، جنوری کے پریکٹیکل، ہال ٹکٹ اور امتحان کے دن کی چیک لسٹ، اسٹریم کے انتخاب کی ورک شیٹ اور نتیجے کے ہفتے کا منصوبہ۔ 7 صفحات، انگریزی، مراٹھی اور اردو میں۔'
+  kit_btn: کٹ حاصل کریں · ₹249
+  kit_note: لانچ قیمت 30 نومبر تک۔ PDF فوراً ڈاؤن لوڈ۔
+  kit_free_a: 'خرچ برداشت نہیں کر سکتے؟ '
+  kit_free_link: مجھے پیغام بھیجیں
+  kit_free_b: ، میں مفت بھیج دوں گا۔ کسی ثبوت کی ضرورت نہیں۔
+  sub_title: ہر پیر ایک مختصر ای میل
+  sub_desc: ہفتے کی بورڈ کی تاریخیں، والدین کے لیے 10 منٹ کا ایک کام اور ایک مفت ذریعہ۔ مفت، کوئی اسپام نہیں، جب چاہیں بند کریں۔ (ای میل انگریزی میں ہوں گی۔)
+  sub_placeholder: آپ کا ای میل
+  sub_btn: سبسکرائب کریں
+  sub_note: پہلے ایک تصدیقی ای میل آئے گی۔ اس کے لنک پر کلک کرتے ہی اپ ڈیٹس شروع ہو جائیں گی۔
+  wa_btn: واٹس ایپ پر پیغام بھیجیں
+  wa_text: 'السلام علیکم بشیر سر، میرا بچہ ___ جماعت (دسویں/بارہویں) میں ہے۔ میری سب سے بڑی فکر: '
+  posts_title: تازہ مضامین (انگریزی میں)
+  all_posts: تمام مضامین
+  lang_label: زبان
+  wa_url: https://wa.me/918625827688?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%DB%8C%DA%A9%D9%85%20%D8%A8%D8%B4%DB%8C%D8%B1%20%D8%B3%D8%B1%D8%8C%20%D9%85%DB%8C%D8%B1%D8%A7%20%D8%A8%DA%86%DB%81%20___%20%D8%AC%D9%85%D8%A7%D8%B9%D8%AA%20%28%D8%AF%D8%B3%D9%88%DB%8C%DA%BA%2F%D8%A8%D8%A7%D8%B1%DB%81%D9%88%DB%8C%DA%BA%29%20%D9%85%DB%8C%DA%BA%20%DB%81%DB%92%DB%94%20%D9%85%DB%8C%D8%B1%DB%8C%20%D8%B3%D8%A8%20%D8%B3%DB%92%20%D8%A8%DA%91%DB%8C%20%D9%81%DA%A9%D8%B1%3A%20
+  prefix: /ur

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
+{% include t.html %}<html lang="{{ L }}" dir="{% if L == 'ur' %}rtl{% else %}ltr{% endif %}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
   {% feed_meta %}
+  {% if page.ref %}{% assign alts = site.pages | where: "ref", page.ref %}{% for a in alts %}<link rel="alternate" hreflang="{{ a.lang }}" href="{{ a.url | absolute_url }}">
+  {% endfor %}{% endif %}
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
