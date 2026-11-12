@@ -43,3 +43,7 @@ td{border:1px solid var(--line);padding:8px;vertical-align:top}
 .subform button:hover{background:#d4771d}
 .btn.wa{background:#25D366;color:#fff}
 .btn.wa:hover{background:#1ebe5b}
+.kitbox{background:#FFF4E8;border:2px solid var(--orange);border-radius:12px;padding:18px 20px;margin:22px 0}
+.kitbox h3{margin:2px 0 8px;color:var(--navy)}
+.kitbox .kitkick{font-size:13px;font-weight:700;color:var(--orange);text-transform:uppercase;letter-spacing:.3px;margin:0}
+.kitbox .btn{margin-right:8px}
