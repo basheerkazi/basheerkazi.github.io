@@ -19,6 +19,7 @@ en:
   sub_btn: Subscribe
   sub_note: You will get a confirmation email first. Click the link in it to start receiving updates.
   wa_btn: WhatsApp me
+  wa_note: 'I read every message myself and reply twice a day, by 10 am and by 8 pm.'
   wa_text: 'Hi Basheer Sir, my child is in Class ___ (10th/12th). My biggest worry is: '
   posts_title: Latest posts
   all_posts: All posts
@@ -46,6 +47,7 @@ mr:
   sub_btn: सबस्क्राइब करा
   sub_note: आधी एक पुष्टी ईमेल येईल. त्यातील लिंकवर क्लिक केल्यावर अपडेट्स सुरू होतील.
   wa_btn: WhatsApp वर मेसेज करा
+  wa_note: 'मी प्रत्येक मेसेज स्वतः वाचतो आणि दिवसातून दोनदा उत्तर देतो, सकाळी 10 पर्यंत आणि रात्री 8 पर्यंत.'
   wa_text: 'नमस्कार बशीर सर, माझे मूल इयत्ता ___ (10 वी/12 वी) मध्ये आहे. माझी सर्वात मोठी काळजी: '
   posts_title: ताजे लेख (इंग्रजीत)
   all_posts: सर्व लेख
@@ -73,6 +75,7 @@ hi:
   sub_btn: सब्सक्राइब करें
   sub_note: पहले एक पुष्टि ईमेल आएगा। उसकी लिंक पर क्लिक करते ही अपडेट शुरू हो जाएँगे।
   wa_btn: WhatsApp पर मैसेज करें
+  wa_note: 'मैं हर मैसेज खुद पढ़ता हूँ और दिन में दो बार जवाब देता हूँ, सुबह 10 बजे तक और रात 8 बजे तक।'
   wa_text: 'नमस्ते बशीर सर, मेरा बच्चा कक्षा ___ (10वीं/12वीं) में है। मेरी सबसे बड़ी चिंता: '
   posts_title: ताज़ा लेख (अंग्रेज़ी में)
   all_posts: सभी लेख
@@ -100,6 +103,7 @@ ur:
   sub_btn: سبسکرائب کریں
   sub_note: پہلے ایک تصدیقی ای میل آئے گی۔ اس کے لنک پر کلک کرتے ہی اپ ڈیٹس شروع ہو جائیں گی۔
   wa_btn: واٹس ایپ پر پیغام بھیجیں
+  wa_note: 'میں ہر پیغام خود پڑھتا ہوں اور دن میں دو بار جواب دیتا ہوں، صبح 10 بجے تک اور رات 8 بجے تک۔'
   wa_text: 'السلام علیکم بشیر سر، میرا بچہ ___ جماعت (دسویں/بارہویں) میں ہے۔ میری سب سے بڑی فکر: '
   posts_title: تازہ مضامین (انگریزی میں)
   all_posts: تمام مضامین
