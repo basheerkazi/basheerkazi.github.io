@@ -13,7 +13,7 @@ lead: "ज्यांचा मुलगा किंवा मुलगी प
 - पालक आणि पदवीधर दोघेही सोबत सहभागी होऊ शकतात
 - **₹1,499**
 
-<p><a class="btn" href="https://topmate.io/basheerkazi/2402868" target="_blank" rel="noopener">सत्र बुक करा</a></p>
+<p><a class="btn" data-goatcounter-click="career-clarity-click{{ page.url }}" data-goatcounter-title="Career Clarity button" href="https://topmate.io/basheerkazi/2402868" target="_blank" rel="noopener">सत्र बुक करा</a></p>
 
 **कोणाशी बोलाल:** बशीर काझी, पुण्यात 20+ वर्षे शाळा, कोचिंग संस्था आणि शिक्षण संस्था उभारण्याचा अनुभव, तसेच नवीन पदवीधरांना नोकरीसाठी मार्गदर्शन.
 

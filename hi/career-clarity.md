@@ -13,7 +13,7 @@ lead: "उन अभिभावकों के लिए जिनका ब�
 - अभिभावक और ग्रेजुएट साथ जुड़ सकते हैं
 - **₹1,499**
 
-<p><a class="btn" href="https://topmate.io/basheerkazi/2402868" target="_blank" rel="noopener">सेशन बुक करें</a></p>
+<p><a class="btn" data-goatcounter-click="career-clarity-click{{ page.url }}" data-goatcounter-title="Career Clarity button" href="https://topmate.io/basheerkazi/2402868" target="_blank" rel="noopener">सेशन बुक करें</a></p>
 
 **आप किससे बात करेंगे:** बशीर काज़ी, पुणे में 20+ वर्षों से स्कूल, कोचिंग संस्थान और शिक्षण संस्थाएँ खड़ी करने का अनुभव, और नए ग्रेजुएट्स को नौकरी के लिए तैयार करने का अनुभव।
 

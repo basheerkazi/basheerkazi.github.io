@@ -13,7 +13,7 @@ lead: "ان والدین کے لیے جن کا بیٹا یا بیٹی گریجو
 - والدین اور گریجویٹ ساتھ شامل ہو سکتے ہیں
 - **₹1,499**
 
-<p><a class="btn" href="https://topmate.io/basheerkazi/2402868" target="_blank" rel="noopener">سیشن بُک کریں</a></p>
+<p><a class="btn" data-goatcounter-click="career-clarity-click{{ page.url }}" data-goatcounter-title="Career Clarity button" href="https://topmate.io/basheerkazi/2402868" target="_blank" rel="noopener">سیشن بُک کریں</a></p>
 
 **آپ کس سے بات کریں گے:** بشیر قاضی، پونے میں 20 سال سے زیادہ اسکول، کوچنگ ادارے اور تعلیمی ادارے قائم کرنے کا تجربہ، اور نئے گریجویٹس کو نوکری کے لیے تیار کرنے کا تجربہ۔
 
