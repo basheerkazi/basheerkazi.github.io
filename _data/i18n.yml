@@ -41,7 +41,7 @@ en:
   cd_share_text: '⏳ Live countdown to SSC & HSC Boards 2027 (Maharashtra Board):'
   cd_note: Dates as announced by the Maharashtra State Board on 17 Sep 2026.
   bot_btn: Ask a question
-  bot_title: Boards 2027 Helper
+  bot_title: Boards Helper by Basheer Kazi
   bot_ph: Type your question…
   bot_send: Send
   bot_close: Close
@@ -89,7 +89,7 @@ mr:
   cd_share_text: '⏳ SSC आणि HSC बोर्ड 2027 चा लाइव्ह काउंटडाउन (महाराष्ट्र बोर्ड):'
   cd_note: महाराष्ट्र राज्य मंडळाने 17 सप्टेंबर 2026 रोजी जाहीर केलेल्या तारखा.
   bot_btn: प्रश्न विचारा
-  bot_title: बोर्ड 2027 मदतनीस
+  bot_title: बशीर काझी यांचा बोर्ड मदतनीस
   bot_ph: तुमचा प्रश्न लिहा…
   bot_send: पाठवा
   bot_close: बंद करा
@@ -137,7 +137,7 @@ hi:
   cd_share_text: '⏳ SSC और HSC बोर्ड 2027 का लाइव काउंटडाउन (महाराष्ट्र बोर्ड):'
   cd_note: महाराष्ट्र राज्य बोर्ड द्वारा 17 सितंबर 2026 को घोषित तारीख़ें।
   bot_btn: सवाल पूछें
-  bot_title: बोर्ड 2027 सहायक
+  bot_title: बशीर काज़ी का बोर्ड सहायक
   bot_ph: अपना सवाल लिखें…
   bot_send: भेजें
   bot_close: बंद करें
@@ -185,7 +185,7 @@ ur:
   cd_share_text: '⏳ SSC اور HSC بورڈ 2027 کا لائیو کاؤنٹ ڈاؤن (مہاراشٹر بورڈ):'
   cd_note: مہاراشٹر اسٹیٹ بورڈ کے 17 ستمبر 2026 کے اعلان کے مطابق تاریخیں۔
   bot_btn: سوال پوچھیں
-  bot_title: بورڈ 2027 معاون
+  bot_title: بشیر قاضی کا بورڈ معاون
   bot_ph: اپنا سوال لکھیں…
   bot_send: بھیجیں
   bot_close: بند کریں
