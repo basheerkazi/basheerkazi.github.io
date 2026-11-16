@@ -9,6 +9,9 @@ lead: For parents and students of Class 10 (SSC) and Class 12 (HSC), Maharashtra
 
 Bookmark this page and share it with any family that has a child in the boards this year.
 
+
+{% include countdown.html %}
+
 ## Key dates for 2027
 
 | What | When |

@@ -1,0 +1,374 @@
+kw:
+  greet:
+  - hi
+  - hello
+  - hey
+  - namaste
+  - namaskar
+  - salam
+  - assalam
+  - नमस्ते
+  - नमस्कार
+  - السلام
+  - سلام
+  dates:
+  - date
+  - dates
+  - when
+  - kab
+  - tarikh
+  - tareekh
+  - tarik
+  - schedule
+  - start
+  - तारीख
+  - तारीख़
+  - तारखा
+  - तारीखा
+  - कधी
+  - कब
+  - تاریخ
+  - کب
+  - शुरू
+  - सुरू
+  practical:
+  - practical
+  - prac
+  - oral
+  - journal
+  - internal
+  - प्रात्यक्षिक
+  - प्रैक्टिकल
+  - तोंडी
+  - जर्नल
+  - پریکٹیکل
+  - جرنل
+  timetable:
+  - timetable
+  - time table
+  - time-table
+  - subject wise
+  - subjectwise
+  - वेळापत्रक
+  - टाइमटेबल
+  - टाईमटेबल
+  - ٹائم ٹیبل
+  sample:
+  - sample
+  - model paper
+  - question paper
+  - old paper
+  - previous
+  - pyq
+  - नमुना
+  - प्रश्नपत्रिका
+  - सैंपल
+  - प्रश्नपत्र
+  - نمونہ
+  - پرچ
+  books:
+  - textbook
+  - book
+  - pdf
+  - balbharati
+  - पाठ्यपुस्तक
+  - पुस्तक
+  - किताब
+  - कितab
+  - بال بھارتی
+  - کتاب
+  solutions:
+  - solution
+  - answer
+  - shaalaa
+  - उत्तरे
+  - उत्तर
+  - हल
+  - حل
+  - جواب
+  hallticket:
+  - hall ticket
+  - hallticket
+  - hall-ticket
+  - admit card
+  - seat number
+  - seat no
+  - हॉल तिकीट
+  - हॉल टिकट
+  - हॉलतिकीट
+  - ہال ٹکٹ
+  study:
+  - study
+  - plan
+  - revision
+  - revise
+  - prepare
+  - preparation
+  - how to
+  - tayari
+  - tayyari
+  - syllabus
+  - padhai
+  - अभ्यास
+  - नियोजन
+  - तैयारी
+  - योजना
+  - पढ़ाई
+  - अभ्यासक्रम
+  - تیاری
+  - منصوبہ
+  - پڑھائی
+  kit:
+  - kit
+  - price
+  - cost
+  - buy
+  - topmate
+  - paid
+  - किट
+  - किंमत
+  - कीमत
+  - کٹ
+  - قیمت
+  stress:
+  - stress
+  - nervous
+  - anxiety
+  - anxious
+  - fear
+  - scared
+  - tension
+  - darr
+  - 'dar '
+  - sleep
+  - ताण
+  - भीती
+  - तनाव
+  - डर
+  - घबराहट
+  - चिंता
+  - काळजी
+  - تناؤ
+  - ڈر
+  - گھبراہٹ
+  - فکر
+  result:
+  - result
+  - marks
+  - percentage
+  - passing
+  - निकाल
+  - रिजल्ट
+  - नतीजा
+  - परिणाम
+  - نتیجہ
+  - رزلٹ
+  - نتائج
+  career:
+  - career
+  - job
+  - graduate
+  - graduation
+  - naukri
+  - नोकरी
+  - करिअर
+  - करियर
+  - नौकरी
+  - ग्रेजुएट
+  - पदवी
+  - نوکری
+  - کیریئر
+  - گریجویٹ
+  stream:
+  - stream
+  - after 10th
+  - after 10
+  - science
+  - commerce
+  - arts
+  - 11th
+  - admission
+  - diploma
+  - शाखा
+  - स्ट्रीम
+  - प्रवेश
+  - اسٹریم
+  - داخلہ
+  contact:
+  - contact
+  - call
+  - whatsapp
+  - talk
+  - human
+  - number
+  - sir
+  - basheer
+  - संपर्क
+  - बोलायचे
+  - बात
+  - सर
+  - رابطہ
+  - بات
+chips:
+- dates
+- practical
+- timetable
+- sample
+- books
+- hallticket
+- study
+- stress
+- kit
+- contact
+chip_labels:
+  en:
+  - Exam dates
+  - Practicals
+  - Timetable
+  - Sample papers
+  - Textbooks PDF
+  - Hall ticket
+  - Study plan
+  - Exam stress
+  - The Kit
+  - Talk to Basheer Sir
+  mr:
+  - परीक्षा तारखा
+  - प्रात्यक्षिक
+  - वेळापत्रक
+  - नमुना प्रश्नपत्रिका
+  - पाठ्यपुस्तक PDF
+  - हॉल तिकीट
+  - अभ्यास नियोजन
+  - परीक्षेचा ताण
+  - किट
+  - बशीर सरांशी बोला
+  hi:
+  - परीक्षा तारीख़ें
+  - प्रैक्टिकल
+  - टाइमटेबल
+  - सैंपल पेपर
+  - पाठ्यपुस्तक PDF
+  - हॉल टिकट
+  - पढ़ाई की योजना
+  - परीक्षा का तनाव
+  - किट
+  - बशीर सर से बात करें
+  ur:
+  - امتحان کی تاریخیں
+  - پریکٹیکل
+  - ٹائم ٹیبل
+  - نمونہ پرچے
+  - نصابی کتابیں PDF
+  - ہال ٹکٹ
+  - پڑھائی کا منصوبہ
+  - امتحان کا تناؤ
+  - کٹ
+  - بشیر سر سے بات کریں
+answers:
+  en:
+    greet: Hi! 👋 I answer common questions about the Maharashtra Board SSC and HSC exams 2027. Tap a topic or type your question.
+    dates: '<b>SSC (Class 10)</b> written papers: 15 Feb to 11 Mar 2027.<br><b>HSC (Class 12)</b> written papers: 8 Feb to 16 Mar 2027.<br>As announced by the board on 17 Sep 2026. <a href=''{cd}''>See the live countdown</a>.'
+    practical: '<b>HSC</b> practicals, orals and internal assessment: 20 Jan to 6 Feb 2027.<br><b>SSC</b>: 28 Jan to 13 Feb 2027.<br>This week, check that every journal is complete and signed. Your school gives the exact practical date.'
+    timetable: The subject-wise timetable has not been released yet. As soon as the board publishes it, it goes on the <a href='{hd}'>Help Desk</a>. Subscribe there to get it by email.
+    sample: 'The board''s own sample question papers are free: on <a href=''https://mahahsscboard.in'' target=''_blank'' rel=''noopener''>mahahsscboard.in</a> open Student Login, then Sample Question Paper, then pick HSC or SSC and the subject.'
+    books: 'All Maharashtra Board textbooks are free as PDFs on Balbharati: <a href=''https://books.ebalbharati.in/'' target=''_blank'' rel=''noopener''>books.ebalbharati.in</a>'
+    solutions: 'Free chapter-wise answers for Maharashtra Board textbooks are on Shaalaa.com. The links by class are on the <a href=''{hd}''>Help Desk</a>. Tip: try the question first, then check.'
+    hallticket: Hall tickets come from the board through your school, shortly before the exams. The date isn't announced yet; it will be on the <a href='{hd}'>Help Desk</a>. When you get it, check the name, photo, seat number, subjects and exam centre, and report any mistake to the school the same day.
+    study: '{phase}<br>For the full week-by-week plan, see the <a href=''{kit}'' target=''_blank'' rel=''noopener''>Countdown Kit</a>.'
+    kit: The <b>Board Exam Countdown Kit 2027</b> is a 7-page plan for parents, from today to the last paper, in English, Marathi and Urdu. {price}<a href='{kit}' target='_blank' rel='noopener'>Get it here</a>. If money is tight, message Basheer Sir and he'll send it free.
+    stress: Exam fear usually comes from not knowing what's left. Write down what's done and what's left, week by week. Keep 7 to 8 hours of sleep, a short break every 45 minutes, and talk about progress, not marks. If worry affects sleep or eating for weeks, speak to the school counsellor or a doctor.
+    result: Board results usually come out in May or June. The board announces the exact date on its official website, and it will be on the <a href='{hd}'>Help Desk</a> too.
+    career: Graduated but the job search is stuck? The <a href='{cc}'>Career Clarity Session</a> is 60 minutes with Basheer Sir, and you leave with a written 30-day plan. ₹1,499.
+    stream: 'Choosing a stream after 10th is a big decision. Start with three questions: which subjects does your child enjoy, which do they score in, and which careers excite them? The Kit has a stream worksheet, and you can talk it through with Basheer Sir on WhatsApp.'
+    contact: 'Basheer Sir answers personally on WhatsApp:'
+    fallback: 'I don''t know that one yet. Ask Basheer Sir directly on WhatsApp:'
+    price: 'Launch price ₹249 till 30 Nov. '
+    phases:
+    - 'Right now: <b>finish the syllabus by 30 Nov</b>, including the chapters your child avoids. Mark each chapter 1 to 5; anything 3 or below goes on a weak list, one weak chapter a day.'
+    - 'Right now: <b>revision round 1</b>. One subject block a day, then 20 minutes of recall from memory with the book closed. Sunday evening, 10 minutes together: what got done, what''s next.'
+    - 'Right now: <b>practice papers</b>. One full paper at home each week in the real time limit, then check it against the board''s sample papers.'
+    - 'Right now: <b>practicals and revision round 2</b>. Journals complete and signed, then short daily revision of formulas, diagrams and definitions.'
+    - 'Right now: <b>exam mode</b>. 7 to 8 hours of sleep, no new topics, revise only from your own notes, and check the hall ticket and centre the day before.'
+  mr:
+    greet: नमस्कार! 👋 महाराष्ट्र बोर्ड SSC आणि HSC परीक्षा 2027 बद्दलच्या नेहमीच्या प्रश्नांची उत्तरे मी देतो. विषय निवडा किंवा तुमचा प्रश्न लिहा.
+    dates: '<b>SSC (इयत्ता 10 वी)</b> लेखी परीक्षा: 15 फेब्रुवारी ते 11 मार्च 2027.<br><b>HSC (इयत्ता 12 वी)</b> लेखी परीक्षा: 8 फेब्रुवारी ते 16 मार्च 2027.<br>मंडळाने 17 सप्टेंबर 2026 रोजी जाहीर केल्याप्रमाणे. <a href=''{cd}''>लाइव्ह काउंटडाउन पाहा</a>.'
+    practical: '<b>HSC</b> प्रात्यक्षिक, तोंडी आणि अंतर्गत मूल्यमापन: 20 जानेवारी ते 6 फेब्रुवारी 2027.<br><b>SSC</b>: 28 जानेवारी ते 13 फेब्रुवारी 2027.<br>या आठवड्यात सर्व जर्नल पूर्ण आणि सही केलेले आहेत का ते तपासा. प्रात्यक्षिकाची नेमकी तारीख शाळा देईल.'
+    timetable: विषयनिहाय वेळापत्रक अजून जाहीर झालेले नाही. मंडळाने जाहीर करताच ते <a href='{hd}'>हेल्प डेस्क</a>वर दिले जाईल.
+    sample: 'मंडळाच्या नमुना प्रश्नपत्रिका मोफत आहेत: <a href=''https://mahahsscboard.in'' target=''_blank'' rel=''noopener''>mahahsscboard.in</a> वर Student Login, नंतर Sample Question Paper उघडा आणि HSC किंवा SSC व विषय निवडा.'
+    books: 'महाराष्ट्र बोर्डाची सर्व पाठ्यपुस्तके बालभारतीवर मोफत PDF मध्ये: <a href=''https://books.ebalbharati.in/'' target=''_blank'' rel=''noopener''>books.ebalbharati.in</a>'
+    solutions: महाराष्ट्र बोर्ड पाठ्यपुस्तकांची प्रकरणनिहाय उत्तरे Shaalaa.com वर मोफत आहेत. इयत्तेनुसार लिंक <a href='{hd}'>हेल्प डेस्क</a>वर आहेत. आधी स्वतः सोडवा, मग तपासा.
+    hallticket: हॉल तिकीट मंडळाकडून शाळेमार्फत परीक्षेच्या काही दिवस आधी मिळते. तारीख अजून जाहीर झालेली नाही; ती <a href='{hd}'>हेल्प डेस्क</a>वर दिली जाईल. मिळाल्यावर नाव, फोटो, बैठक क्रमांक, विषय आणि परीक्षा केंद्र तपासा आणि चूक असल्यास त्याच दिवशी शाळेला कळवा.
+    study: '{phase}<br>संपूर्ण आठवडानिहाय नियोजनासाठी <a href=''{kit}'' target=''_blank'' rel=''noopener''>काउंटडाउन किट</a> पाहा.'
+    kit: <b>बोर्ड परीक्षा काउंटडाउन किट 2027</b> हे आजपासून शेवटच्या पेपरपर्यंत पालकांसाठी 7 पानांचे नियोजन आहे, इंग्रजी, मराठी आणि उर्दूमध्ये. {price}<a href='{kit}' target='_blank' rel='noopener'>येथे घ्या</a>. पैशांची अडचण असल्यास बशीर सरांना मेसेज करा, ते मोफत पाठवतील.
+    stress: परीक्षेची भीती बहुतेक वेळा काय उरले आहे हे माहीत नसल्यामुळे येते. काय झाले आणि काय उरले ते आठवड्यानुसार लिहून ठेवा. 7 ते 8 तास झोप, दर 45 मिनिटांनी छोटा ब्रेक, आणि गुणांबद्दल नव्हे तर प्रगतीबद्दल बोला. काळजीमुळे आठवडे झोप किंवा जेवण बिघडत असेल तर शाळेच्या समुपदेशकाशी किंवा डॉक्टरांशी बोला.
+    result: बोर्डाचे निकाल साधारणपणे मे किंवा जूनमध्ये लागतात. नेमकी तारीख मंडळ अधिकृत वेबसाइटवर जाहीर करते, आणि ती <a href='{hd}'>हेल्प डेस्क</a>वरही दिली जाईल.
+    career: पदवी झाली पण नोकरीचा शोध अडकलाय? <a href='{cc}'>करिअर क्लॅरिटी सत्र</a> हे बशीर सरांसोबत 60 मिनिटांचे सत्र आहे, आणि तुम्हाला 30 दिवसांचा लेखी आराखडा मिळतो. ₹1,499.
+    stream: '10 वी नंतर शाखा निवडणे हा मोठा निर्णय आहे. तीन प्रश्नांनी सुरुवात करा: मुलाला कोणते विषय आवडतात, कोणत्या विषयांत गुण चांगले येतात, आणि कोणते करिअर आकर्षित करते? किटमध्ये शाखा निवडीसाठी वर्कशीट आहे, आणि तुम्ही WhatsApp वर बशीर सरांशी बोलू शकता.'
+    contact: 'बशीर सर WhatsApp वर स्वतः उत्तर देतात:'
+    fallback: 'याचे उत्तर अजून माझ्याकडे नाही. थेट बशीर सरांना WhatsApp वर विचारा:'
+    price: '30 नोव्हेंबरपर्यंत लाँच किंमत ₹249. '
+    phases:
+    - 'आत्ता: <b>30 नोव्हेंबरपर्यंत अभ्यासक्रम पूर्ण करा</b>, मूल टाळत असलेली प्रकरणेही. प्रत्येक प्रकरणाला 1 ते 5 गुण द्या; 3 किंवा कमी असलेली प्रकरणे कमकुवत यादीत, रोज एक.'
+    - 'आत्ता: <b>उजळणीची पहिली फेरी</b>. रोज एका विषयाचा भाग, मग पुस्तक बंद ठेवून 20 मिनिटे आठवून लिहा. रविवारी संध्याकाळी 10 मिनिटे एकत्र: काय झाले, पुढे काय.'
+    - 'आत्ता: <b>सराव प्रश्नपत्रिका</b>. दर आठवड्याला घरी खऱ्या वेळेत एक पूर्ण पेपर, मग मंडळाच्या नमुना प्रश्नपत्रिकांशी तुलना करून तपासा.'
+    - 'आत्ता: <b>प्रात्यक्षिके आणि उजळणीची दुसरी फेरी</b>. जर्नल पूर्ण आणि सही केलेले, मग सूत्रे, आकृत्या आणि व्याख्यांची रोज थोडी उजळणी.'
+    - 'आत्ता: <b>परीक्षा मोड</b>. 7 ते 8 तास झोप, नवीन विषय नको, फक्त स्वतःच्या नोट्समधून उजळणी, आणि आदल्या दिवशी हॉल तिकीट व केंद्र तपासा.'
+  hi:
+    greet: नमस्ते! 👋 मैं महाराष्ट्र बोर्ड SSC और HSC परीक्षा 2027 के आम सवालों के जवाब देता हूँ। कोई विषय चुनें या अपना सवाल लिखें।
+    dates: '<b>SSC (कक्षा 10वीं)</b> लिखित परीक्षा: 15 फ़रवरी से 11 मार्च 2027.<br><b>HSC (कक्षा 12वीं)</b> लिखित परीक्षा: 8 फ़रवरी से 16 मार्च 2027.<br>बोर्ड द्वारा 17 सितंबर 2026 को घोषित। <a href=''{cd}''>लाइव काउंटडाउन देखें</a>।'
+    practical: '<b>HSC</b> प्रैक्टिकल, मौखिक और आंतरिक मूल्यांकन: 20 जनवरी से 6 फ़रवरी 2027.<br><b>SSC</b>: 28 जनवरी से 13 फ़रवरी 2027.<br>इसी हफ़्ते देख लें कि सारे जर्नल पूरे और साइन किए हुए हैं। प्रैक्टिकल की सही तारीख़ स्कूल बताएगा।'
+    timetable: विषय-वार टाइमटेबल अभी जारी नहीं हुआ है। बोर्ड के जारी करते ही यह <a href='{hd}'>हेल्प डेस्क</a> पर आ जाएगा।
+    sample: 'बोर्ड के अपने सैंपल प्रश्नपत्र मुफ़्त हैं: <a href=''https://mahahsscboard.in'' target=''_blank'' rel=''noopener''>mahahsscboard.in</a> पर Student Login, फिर Sample Question Paper खोलें और HSC या SSC व विषय चुनें।'
+    books: 'महाराष्ट्र बोर्ड की सभी पाठ्यपुस्तकें बालभारती पर मुफ़्त PDF में: <a href=''https://books.ebalbharati.in/'' target=''_blank'' rel=''noopener''>books.ebalbharati.in</a>'
+    solutions: महाराष्ट्र बोर्ड की पाठ्यपुस्तकों के अध्याय-वार हल Shaalaa.com पर मुफ़्त हैं। कक्षा-वार लिंक <a href='{hd}'>हेल्प डेस्क</a> पर हैं। पहले ख़ुद हल करें, फिर जाँचें।
+    hallticket: हॉल टिकट बोर्ड से स्कूल के ज़रिए परीक्षा से कुछ दिन पहले मिलता है। तारीख़ अभी घोषित नहीं हुई है; यह <a href='{hd}'>हेल्प डेस्क</a> पर दी जाएगी। मिलने पर नाम, फ़ोटो, सीट नंबर, विषय और परीक्षा केंद्र जाँचें, और कोई ग़लती हो तो उसी दिन स्कूल को बताएँ।
+    study: '{phase}<br>पूरी हफ़्ते-दर-हफ़्ते योजना के लिए <a href=''{kit}'' target=''_blank'' rel=''noopener''>काउंटडाउन किट</a> देखें।'
+    kit: <b>बोर्ड परीक्षा काउंटडाउन किट 2027</b> आज से आख़िरी पेपर तक अभिभावकों के लिए 7 पेज की योजना है, अंग्रेज़ी, मराठी और उर्दू में। {price}<a href='{kit}' target='_blank' rel='noopener'>यहाँ लें</a>। पैसों की दिक़्क़त हो तो बशीर सर को मैसेज करें, वे मुफ़्त भेज देंगे।
+    stress: परीक्षा का डर अक्सर इस बात से आता है कि पता नहीं क्या बाक़ी है। हफ़्ते-दर-हफ़्ते लिखें कि क्या हो गया और क्या बाक़ी है। 7 से 8 घंटे की नींद, हर 45 मिनट पर छोटा ब्रेक, और नंबरों की नहीं, प्रगति की बात करें। अगर चिंता से हफ़्तों तक नींद या खाना बिगड़ रहा हो, तो स्कूल काउंसलर या डॉक्टर से बात करें।
+    result: बोर्ड के नतीजे आम तौर पर मई या जून में आते हैं। सही तारीख़ बोर्ड अपनी आधिकारिक वेबसाइट पर घोषित करता है, और यह <a href='{hd}'>हेल्प डेस्क</a> पर भी दी जाएगी।
+    career: ग्रेजुएशन हो गया पर नौकरी की तलाश अटकी है? <a href='{cc}'>करियर क्लैरिटी सेशन</a> बशीर सर के साथ 60 मिनट का सेशन है, और आपको 30 दिन की लिखित योजना मिलती है। ₹1,499.
+    stream: '10वीं के बाद स्ट्रीम चुनना बड़ा फ़ैसला है। तीन सवालों से शुरू करें: बच्चे को कौन से विषय पसंद हैं, किनमें नंबर अच्छे आते हैं, और कौन से करियर उसे आकर्षित करते हैं? किट में स्ट्रीम चुनने की वर्कशीट है, और आप WhatsApp पर बशीर सर से बात कर सकते हैं।'
+    contact: 'बशीर सर WhatsApp पर ख़ुद जवाब देते हैं:'
+    fallback: 'इसका जवाब अभी मेरे पास नहीं है। सीधे बशीर सर से WhatsApp पर पूछें:'
+    price: 'लॉन्च कीमत ₹249, 30 नवंबर तक। '
+    phases:
+    - 'अभी: <b>30 नवंबर तक सिलेबस पूरा करें</b>, वे अध्याय भी जिनसे बच्चा बचता है। हर अध्याय को 1 से 5 अंक दें; 3 या उससे कम वाले कमज़ोर सूची में, रोज़ एक।'
+    - 'अभी: <b>रिवीज़न का पहला दौर</b>। रोज़ एक विषय का हिस्सा, फिर किताब बंद करके 20 मिनट याद से लिखें। रविवार शाम 10 मिनट साथ बैठें: क्या हुआ, आगे क्या।'
+    - 'अभी: <b>प्रैक्टिस पेपर</b>। हर हफ़्ते घर पर असली समय में एक पूरा पेपर, फिर बोर्ड के सैंपल पेपर से मिलाकर जाँचें।'
+    - 'अभी: <b>प्रैक्टिकल और रिवीज़न का दूसरा दौर</b>। जर्नल पूरे और साइन किए हुए, फिर फ़ॉर्मूले, चित्र और परिभाषाओं का रोज़ थोड़ा रिवीज़न।'
+    - 'अभी: <b>परीक्षा मोड</b>। 7 से 8 घंटे की नींद, कोई नया टॉपिक नहीं, सिर्फ़ अपने नोट्स से रिवीज़न, और एक दिन पहले हॉल टिकट और केंद्र जाँच लें।'
+  ur:
+    greet: السلام علیکم! 👋 میں مہاراشٹر بورڈ SSC اور HSC امتحان 2027 کے عام سوالوں کے جواب دیتا ہوں۔ کوئی موضوع چنیں یا اپنا سوال لکھیں۔
+    dates: '<b>SSC (دسویں)</b> تحریری پرچے: 15 فروری تا 11 مارچ 2027۔<br><b>HSC (بارہویں)</b> تحریری پرچے: 8 فروری تا 16 مارچ 2027۔<br>بورڈ کے 17 ستمبر 2026 کے اعلان کے مطابق۔ <a href=''{cd}''>لائیو کاؤنٹ ڈاؤن دیکھیں</a>۔'
+    practical: '<b>HSC</b> پریکٹیکل، زبانی اور داخلی جانچ: 20 جنوری تا 6 فروری 2027۔<br><b>SSC</b>: 28 جنوری تا 13 فروری 2027۔<br>اسی ہفتے دیکھ لیں کہ تمام جرنل مکمل اور دستخط شدہ ہیں۔ پریکٹیکل کی صحیح تاریخ اسکول بتائے گا۔'
+    timetable: مضمون وار ٹائم ٹیبل ابھی جاری نہیں ہوا۔ بورڈ کے جاری کرتے ہی یہ <a href='{hd}'>ہیلپ ڈیسک</a> پر آ جائے گا۔
+    sample: 'بورڈ کے اپنے نمونہ پرچے مفت ہیں: <a href=''https://mahahsscboard.in'' target=''_blank'' rel=''noopener''>mahahsscboard.in</a> پر Student Login، پھر Sample Question Paper کھولیں اور HSC یا SSC اور مضمون منتخب کریں۔'
+    books: 'مہاراشٹر بورڈ کی تمام نصابی کتابیں بال بھارتی پر مفت PDF میں: <a href=''https://books.ebalbharati.in/'' target=''_blank'' rel=''noopener''>books.ebalbharati.in</a>'
+    solutions: مہاراشٹر بورڈ کی نصابی کتابوں کے باب وار حل Shaalaa.com پر مفت ہیں۔ جماعت وار لنک <a href='{hd}'>ہیلپ ڈیسک</a> پر ہیں۔ پہلے خود حل کریں، پھر جانچیں۔
+    hallticket: ہال ٹکٹ بورڈ کی طرف سے اسکول کے ذریعے امتحان سے کچھ دن پہلے ملتا ہے۔ تاریخ ابھی اعلان نہیں ہوئی؛ یہ <a href='{hd}'>ہیلپ ڈیسک</a> پر دی جائے گی۔ ملنے پر نام، تصویر، سیٹ نمبر، مضامین اور امتحانی مرکز جانچیں، اور کوئی غلطی ہو تو اسی دن اسکول کو بتائیں۔
+    study: '{phase}<br>پورے ہفتہ وار منصوبے کے لیے <a href=''{kit}'' target=''_blank'' rel=''noopener''>کاؤنٹ ڈاؤن کٹ</a> دیکھیں۔'
+    kit: <b>بورڈ امتحان کاؤنٹ ڈاؤن کٹ 2027</b> آج سے آخری پرچے تک والدین کے لیے 7 صفحات کا منصوبہ ہے، انگریزی، مراٹھی اور اردو میں۔ {price}<a href='{kit}' target='_blank' rel='noopener'>یہاں حاصل کریں</a>۔ پیسوں کی تنگی ہو تو بشیر سر کو پیغام بھیجیں، وہ مفت بھیج دیں گے۔
+    stress: امتحان کا ڈر اکثر اس بات سے آتا ہے کہ معلوم نہیں کیا باقی ہے۔ ہفتہ وار لکھیں کہ کیا ہو گیا اور کیا باقی ہے۔ 7 سے 8 گھنٹے کی نیند، ہر 45 منٹ پر مختصر وقفہ، اور نمبروں کی نہیں، پیش رفت کی بات کریں۔ اگر فکر سے ہفتوں تک نیند یا کھانا متاثر ہو رہا ہو تو اسکول کاؤنسلر یا ڈاکٹر سے بات کریں۔
+    result: بورڈ کے نتائج عام طور پر مئی یا جون میں آتے ہیں۔ صحیح تاریخ بورڈ اپنی سرکاری ویب سائٹ پر اعلان کرتا ہے، اور یہ <a href='{hd}'>ہیلپ ڈیسک</a> پر بھی دی جائے گی۔
+    career: گریجویشن ہو گیا لیکن نوکری کی تلاش رکی ہوئی ہے؟ <a href='{cc}'>کیریئر کلیرٹی سیشن</a> بشیر سر کے ساتھ 60 منٹ کا سیشن ہے، اور آپ کو 30 دن کا تحریری منصوبہ ملتا ہے۔ ₹1,499۔
+    stream: 'دسویں کے بعد اسٹریم چننا بڑا فیصلہ ہے۔ تین سوالوں سے شروع کریں: بچے کو کون سے مضامین پسند ہیں، کن میں نمبر اچھے آتے ہیں، اور کون سے کیریئر اسے متاثر کرتے ہیں؟ کٹ میں اسٹریم کے انتخاب کی ورک شیٹ ہے، اور آپ واٹس ایپ پر بشیر سر سے بات کر سکتے ہیں۔'
+    contact: 'بشیر سر واٹس ایپ پر خود جواب دیتے ہیں:'
+    fallback: 'اس کا جواب ابھی میرے پاس نہیں۔ براہِ راست بشیر سر سے واٹس ایپ پر پوچھیں:'
+    price: 'لانچ قیمت ₹249، 30 نومبر تک۔ '
+    phases:
+    - 'ابھی: <b>30 نومبر تک نصاب مکمل کریں</b>، وہ ابواب بھی جن سے بچہ بچتا ہے۔ ہر باب کو 1 سے 5 نمبر دیں؛ 3 یا کم والے کمزور فہرست میں، روزانہ ایک۔'
+    - 'ابھی: <b>دہرائی کا پہلا دور</b>۔ روزانہ ایک مضمون کا حصہ، پھر کتاب بند کر کے 20 منٹ یاد سے لکھیں۔ اتوار کی شام 10 منٹ ساتھ بیٹھیں: کیا ہوا، آگے کیا۔'
+    - 'ابھی: <b>مشق کے پرچے</b>۔ ہر ہفتے گھر پر اصل وقت میں ایک مکمل پرچہ، پھر بورڈ کے نمونہ پرچوں سے ملا کر جانچیں۔'
+    - 'ابھی: <b>پریکٹیکل اور دہرائی کا دوسرا دور</b>۔ جرنل مکمل اور دستخط شدہ، پھر فارمولے، خاکے اور تعریفوں کی روزانہ تھوڑی دہرائی۔'
+    - 'ابھی: <b>امتحانی موڈ</b>۔ 7 سے 8 گھنٹے کی نیند، کوئی نیا موضوع نہیں، صرف اپنے نوٹس سے دہرائی، اور ایک دن پہلے ہال ٹکٹ اور مرکز جانچ لیں۔'
+wa_after:
+- contact
+- fallback
+- stream
+phase_starts:
+- '2026-11-30'
+- '2026-12-28'
+- '2027-01-18'
+- '2027-02-08'
+price_until: '2026-12-01'

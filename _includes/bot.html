@@ -1,0 +1,10 @@
+{% include t.html %}<button type="button" class="bot-btn" aria-haspopup="dialog" aria-controls="bot-panel" data-goatcounter-click="bot-open{{ page.url }}"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg><span>{{ t.bot_btn }}</span></button>
+<div class="bot-panel" id="bot-panel" role="dialog" aria-label="{{ t.bot_title }}" hidden>
+<div class="bot-head"><strong>{{ t.bot_title }}</strong><button type="button" class="bot-x" aria-label="{{ t.bot_close }}">×</button></div>
+<div class="bot-log" aria-live="polite"></div>
+<div class="bot-chips"></div>
+<form class="bot-form"><label class="vh" for="bot-in">{{ t.bot_ph }}</label><input id="bot-in" type="text" autocomplete="off" placeholder="{{ t.bot_ph }}"><button type="submit">{{ t.bot_send }}</button></form>
+<p class="bot-note">{{ t.bot_note }}</p>
+</div>
+<script id="bot-cfg" type="application/json">{"lang":"{{ L }}","wa":{{ t.wa_url | jsonify }},"waBtn":{{ t.wa_btn | jsonify }},"hd":{{ t.prefix | append: '/boards-2027/' | relative_url | jsonify }},"cd":{{ t.prefix | append: '/countdown/' | relative_url | jsonify }},"cc":{{ t.prefix | append: '/career-clarity/' | relative_url | jsonify }},"kit":"https://topmate.io/basheerkazi/2387069"}</script>
+<script src="{{ '/assets/bot.js' | relative_url }}" defer></script>

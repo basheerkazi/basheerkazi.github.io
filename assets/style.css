@@ -74,3 +74,42 @@ html[lang=ur] h1,html[lang=ur] h2,html[lang=ur] h3{line-height:1.8}
 [dir=rtl] .wa-float{right:auto;left:18px}
 body{padding-bottom:70px}
 @media print{.wa-float{display:none}}
+
+/* exam countdown */
+.cdwrap{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:22px 0}
+.cd{background:var(--navy);color:#fff;border-radius:14px;padding:18px 18px 14px;display:flex;flex-direction:column;gap:6px}
+.cd-h{font-weight:700;font-size:17px}
+.cd-date{color:#D5DEEA;font-size:14px}
+.cd-num{display:flex;gap:8px;margin:6px 0}
+.cd-num span{flex:1;background:rgba(255,255,255,.1);border-radius:10px;padding:8px 4px;text-align:center;display:flex;flex-direction:column}
+.cd-num b{font-size:28px;line-height:1.1}
+.cd-num span:first-child b{color:var(--orange)}
+.cd-num i{font-style:normal;font-size:12px;color:#D5DEEA}
+.cd-sub{font-size:14px;color:#D5DEEA}.cd-sub b{color:#fff}
+.cd-done{font-weight:700;font-size:18px;color:#F7B267}
+.cd-foot{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px}
+@media(max-width:620px){.cdwrap{grid-template-columns:1fr}}
+/* helpdesk chatbot */
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.bot-btn{position:fixed;right:18px;bottom:86px;z-index:51;display:flex;align-items:center;gap:8px;background:var(--navy);color:#fff;border:0;border-radius:28px;padding:12px 16px;font-size:15px;font-weight:700;box-shadow:0 3px 10px rgba(0,0,0,.25);cursor:pointer;min-height:48px}
+.bot-btn:hover{background:#16304f}
+.bot-panel{position:fixed;right:18px;bottom:146px;z-index:52;width:min(370px,calc(100vw - 24px));max-height:min(560px,calc(100vh - 170px));background:#fff;border-radius:16px;box-shadow:0 10px 32px rgba(0,0,0,.28);display:flex;flex-direction:column;overflow:hidden}
+.bot-panel[hidden]{display:none}
+.bot-head{background:var(--navy);color:#fff;padding:10px 14px;display:flex;justify-content:space-between;align-items:center}
+.bot-x{background:none;border:0;color:#fff;font-size:26px;line-height:1;cursor:pointer;min-width:44px;min-height:44px}
+.bot-log{flex:1;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:8px;background:#F4F7FB}
+.bot-msg{max-width:88%;padding:9px 12px;border-radius:12px;font-size:15px;line-height:1.5}
+.bot-msg.bot{background:#fff;border:1px solid #E2E8F0;align-self:flex-start}
+.bot-msg.me{background:var(--navy);color:#fff;align-self:flex-end}
+.bot-msg .btn{margin-top:4px}
+.bot-chips{display:flex;flex-wrap:wrap;gap:6px;padding:8px 10px;border-top:1px solid #E2E8F0;max-height:110px;overflow-y:auto}
+.bot-chips button{background:#FFF4E8;border:1px solid var(--orange);color:var(--navy);border-radius:16px;padding:6px 10px;font-size:13px;cursor:pointer}
+.bot-form{display:flex;gap:6px;padding:8px 10px;border-top:1px solid #E2E8F0}
+.bot-form input{flex:1;min-width:0;height:42px;border:2px solid #E2E8F0;border-radius:8px;padding:0 10px;font-size:15px}
+.bot-form button{background:var(--orange);color:#fff;border:0;border-radius:8px;padding:0 14px;font-weight:700;cursor:pointer}
+.bot-note{margin:0;padding:4px 12px 8px;font-size:11.5px;color:#555}
+[dir=rtl] .bot-btn{right:auto;left:18px}
+[dir=rtl] .bot-panel{right:auto;left:18px}
+@media(max-width:480px){.bot-btn span{display:none}.bot-btn{padding:12px}}
+@media print{.bot-btn,.bot-panel{display:none}}
+body{padding-bottom:140px}

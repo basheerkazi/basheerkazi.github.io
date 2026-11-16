@@ -1,0 +1,18 @@
+{% include t.html %}<section class="cdwrap" aria-label="{{ t.cd_title }}">
+{% assign cds = "ssc,hsc" | split: "," %}{% for c in cds %}{% if c == "ssc" %}{% assign h = t.cd_ssc %}{% assign dt = t.cd_ssc_date %}{% assign tg = "2027-02-15T00:00:00+05:30" %}{% assign pr = "2027-01-28T00:00:00+05:30" %}{% else %}{% assign h = t.cd_hsc %}{% assign dt = t.cd_hsc_date %}{% assign tg = "2027-02-08T00:00:00+05:30" %}{% assign pr = "2027-01-20T00:00:00+05:30" %}{% endif %}
+<div class="cd" data-target="{{ tg }}" data-prac="{{ pr }}">
+<div class="cd-h">{{ h }}</div>
+<div class="cd-date">{{ dt }}</div>
+<div class="cd-num" dir="ltr">
+<span><b data-u="d">--</b><i>{{ t.cd_days }}</i></span>
+<span><b data-u="h">--</b><i>{{ t.cd_hrs }}</i></span>
+<span><b data-u="m">--</b><i>{{ t.cd_min }}</i></span>
+<span><b data-u="s">--</b><i>{{ t.cd_sec }}</i></span>
+</div>
+<div class="cd-done" hidden>{{ t.cd_started }}</div>
+<div class="cd-sub">{{ t.cd_prac }} <b data-u="pd">--</b> {{ t.cd_days }}</div>
+</div>{% endfor %}
+<div class="cd-foot"><span class="small">{{ t.cd_note }}</span>
+<a class="btn wa cd-share" data-goatcounter-click="countdown-share{{ page.url }}" data-text="{{ t.cd_share_text }}" data-url="{{ t.prefix | append: '/countdown/' | absolute_url }}" href="#" target="_blank" rel="noopener">{{ t.cd_share }}</a></div>
+</section>
+<script src="{{ '/assets/countdown.js' | relative_url }}" defer></script>
