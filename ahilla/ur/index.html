@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AHILLA · اسلامی کیلنڈر جس کا دن مغرب سے شروع ہوتا ہے</title>
-<meta name="description" content="AHILLA ہندوستان کے مسلم خاندانوں کے لیے اسلامی کیلنڈر ایپ ہے: آپ کی رؤیت ہلال کمیٹی کی ہجری تاریخیں، نماز کے شروع اور ختم ہونے کا وقت، رمضان کی الٹی گنتی، 99 دعائیں اور تسبیح۔ انگریزی، ہندی اور اردو میں۔ جنوری 2027 میں Google Play پر۔">
+<meta name="description" content="AHILLA ہندوستان کے مسلم خاندانوں کے لیے اسلامی کیلنڈر ایپ ہے: آپ کی رؤیت ہلال کمیٹی کی ہجری تاریخیں، نماز کے شروع اور ختم ہونے کا وقت، قبلہ، رمضان کی الٹی گنتی، 99 دعائیں اور تسبیح، زکوٰۃ کیلکولیٹر۔ انگریزی، ہندی اور اردو میں۔ جنوری 2027 میں Google Play پر۔">
 <meta property="og:title" content="AHILLA · The Islamic calendar that starts your day at Maghrib">
 <meta property="og:description" content="Prayer times, moon sighting, Ramadan, duas and your family's dates. In English, हिन्दी and اردو. Free Moon Calendar 2027 for India.">
 <meta property="og:image" content="https://basheerkazi.github.io/ahilla/img/og.png">
@@ -108,6 +108,15 @@ nav .links .btn { padding:8px 16px; color:var(--night); }
 .tasbih .ar { font-family:Amiri, serif; font-size:1.7rem; color:var(--pale); margin-top:22px; direction:rtl; }
 .tasbih small { color:#9FB9C2; margin-top:6px; }
 
+/* tools */
+.tools { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:28px; }
+.tools div { border:1px solid var(--line); border-radius:18px; padding:20px; }
+.tools svg { width:34px; height:34px; fill:none; stroke:var(--teal); stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+.tools b { display:block; color:var(--teal); font-size:1.05rem; margin:8px 0 4px; }
+.tools p { margin:0; color:var(--muted); font-size:.93rem; }
+@media (max-width:820px){ .tools{ grid-template-columns:1fr 1fr; } }
+@media (max-width:520px){ .tools{ grid-template-columns:1fr; } }
+
 /* ramadan */
 .rama h2 { color:#fff; }
 .hero .wrap > * { min-width:0; }
@@ -196,6 +205,7 @@ nav .links a, .btn, .lsw a { font-family:'Noto Nastaliq Urdu', Poppins, serif; }
     <a class="logo" href="#top"><img src="../img/icon-192.png" alt=""><span>AHILLA</span></a>
     <div class="links">
       <a href="#features">خوبیاں</a>
+      <a href="#tools">ٹولز</a>
       <a href="#ramadan">رمضان 2027</a>
       <a href="#downloads">ڈاؤن لوڈ</a>
       <a href="#feedback">رائے دیں</a>
@@ -301,7 +311,7 @@ nav .links a, .btn, .lsw a { font-family:'Noto Nastaliq Urdu', Poppins, serif; }
       <div class="kicker">الرٹ اور خاندان</div>
       <h2>نرم یاد دہانی، کبھی پریشانی نہیں</h2>
       <ul>
-        <li>ہر نماز کا وقت شروع ہونے پر الرٹ۔</li>
+        <li>ہر نماز کا وقت شروع ہونے پر الرٹ، ختم ہونے تک کی لائیو الٹی گنتی کے ساتھ۔</li>
         <li>فجر، ظہر، عصر یا مغرب ختم ہونے سے تقریباً 20 منٹ پہلے: "ابھی وقت ہے"۔ پہلے الرٹ پر "پڑھ لی" دبائیں تو یہ یاد دہانی نہیں آئے گی۔</li>
         <li>جمعہ کی صبح جمعہ کی یاد دہانی۔</li>
         <li>فیملی وال: پورے خاندان کا ایک مشترکہ کیلنڈر۔ ہجری سالگرہ، عقیقہ اور برسی۔</li>
@@ -310,6 +320,21 @@ nav .links a, .btn, .lsw a { font-family:'Noto Nastaliq Urdu', Poppins, serif; }
     </div>
   </div>
 </div>
+
+<section id="tools" style="padding-top:24px">
+  <div class="wrap">
+    <div class="kicker">روزمرہ کے ٹولز</div>
+    <h2>اور وہ سب جس کی آپ کو روز ضرورت ہے</h2>
+    <div class="tools">
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><b>قبلہ نما</b><p>فون کے ساتھ گھومنے والا کمپاس۔ کعبہ کی طرف ہوتے ہی اسکرین سبز ہو جاتی ہے۔ انٹرنیٹ کے بغیر چلتا ہے۔</p></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M8 18h8"/></svg><b>زکوٰۃ کیلکولیٹر</b><p>سونا، چاندی، نقد اور کاروبار، روپوں میں، حنفی نصاب کے ساتھ۔ آپ کی رقمیں کبھی محفوظ نہیں ہوتیں۔</p></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg><b>تاریخ بدلیں</b><p>انگریزی سے ہجری اور واپس، نکاح، عقیقہ یا برسی کی تیاری کے لیے۔ ایک ٹیپ میں شیئر کریں۔</p></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/></svg><b>اللہ کے 99 نام</b><p>ہر نام عربی میں، اس کا تلفظ، اور آپ کی زبان میں معنی۔</p></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/><circle cx="12" cy="15" r="1.5"/></svg><b>ہندوستان کے تہوار</b><p>ہولی، دیوالی، گنیش چترتھی، کرسمس اور سرکاری تعطیلات، حکومت ہند کی فہرست سے۔</p></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.5c1 1.3 2.2 2 3.5 2s2.5-.7 3.5-2M9 10h0M15 10h0"/></svg><b>ایک ٹیپ میں رائے</b><p>Today کے نیچے کسی چہرے پر ٹیپ کریں۔ ہم ہر پیغام پڑھتے ہیں۔</p></div>
+    </div>
+  </div>
+</section>
 
 <section class="rama" id="ramadan">
   <div class="wrap">
@@ -424,7 +449,7 @@ nav .links a, .btn, .lsw a { font-family:'Noto Nastaliq Urdu', Poppins, serif; }
     <details><summary>یہ کس رؤیت ہلال کمیٹی کو مانتا ہے؟</summary><p>جسے آپ چنیں۔ وہ کمیٹی چنیں جسے آپ کی مسجد مانتی ہے، AHILLA ان کے اعلان پر چلے گا۔ اعلان ہونے تک یہ ہندوستان کے لیے چاند کا اندازہ دکھاتا ہے، اور Settings میں آپ خود بھی تاریخ ایک دن آگے پیچھے کر سکتے ہیں۔</p></details>
     <details><summary>کیا چاند کیلنڈر کی تاریخیں حتمی ہیں؟</summary><p>نہیں۔ یہ فلکیات پر مبنی اندازے ہیں۔ روزے اور عید اپنی رؤیت ہلال کمیٹی کے اعلان کے بعد ہی شروع کریں۔ آپ کے علاقے میں تاریخ ایک دن مختلف ہو سکتی ہے، اور کیرالا کبھی کبھی شمالی ہند سے ایک دن الگ ہوتا ہے۔</p></details>
     <details><summary>کیا اکاؤنٹ چاہیے؟ میرے ڈیٹا کا کیا؟</summary><p>نہ اکاؤنٹ، نہ سائن اپ۔ نماز کے اوقات، روزے اور دعائیں آپ کے فون میں رہتی ہیں۔ صرف وہی باہر جاتا ہے جو آپ خود شیئر کریں، جیسے فیملی وال کی تاریخیں یا آپ کی رائے۔ <a href="../privacy.html">پرائیویسی پالیسی</a> (انگریزی میں) پڑھیں۔</p></details>
-    <details><summary>کیا یہ انٹرنیٹ کے بغیر چلتی ہے؟</summary><p>جی ہاں۔ نماز کے اوقات، کیلنڈر، دعائیں اور تسبیح انٹرنیٹ کے بغیر چلتے ہیں۔ چاند کے اعلان اور فیملی وال کے لیے انٹرنیٹ چاہیے۔</p></details>
+    <details><summary>کیا یہ انٹرنیٹ کے بغیر چلتی ہے؟</summary><p>جی ہاں۔ نماز کے اوقات، کیلنڈر، دعائیں، تسبیح، قبلہ کمپاس اور زکوٰۃ کیلکولیٹر انٹرنیٹ کے بغیر چلتے ہیں۔ چاند کے اعلان اور فیملی وال کے لیے انٹرنیٹ چاہیے۔</p></details>
     <details><summary>کیا iPhone کے لیے ہے؟</summary><p>ابھی نہیں۔ AHILLA پہلے Android کے لیے ہے۔ اوپر والی ہجری کیلنڈر فیڈ iPhone پر آج بھی چلتی ہے۔</p></details>
     <details><summary>کیا میری مسجد AHILLA کے ساتھ جڑ سکتی ہے؟</summary><p>جی ہاں، ہمیں لکھیں: <a href="mailto:ahilla.app@gmail.com?subject=Masjid%20and%20AHILLA">ahilla.app@gmail.com</a>۔ ہم پونے کی مساجد سے شروعات کر رہے ہیں۔</p></details>
   </div>

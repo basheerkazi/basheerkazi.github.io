@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AHILLA · इस्लामी कैलेंडर जिसका दिन मग़रिब से शुरू होता है</title>
-<meta name="description" content="AHILLA भारत के मुस्लिम परिवारों के लिए इस्लामी कैलेंडर ऐप है: आपकी चाँद कमेटी की हिजरी तारीख़ें, नमाज़ के शुरू और ख़त्म होने का वक़्त, रमज़ान की उलटी गिनती, 99 दुआएँ और तस्बीह। अंग्रेज़ी, हिंदी और उर्दू में। जनवरी 2027 में Google Play पर।">
+<meta name="description" content="AHILLA भारत के मुस्लिम परिवारों के लिए इस्लामी कैलेंडर ऐप है: आपकी चाँद कमेटी की हिजरी तारीख़ें, नमाज़ के शुरू और ख़त्म होने का वक़्त, क़िबला, रमज़ान की उलटी गिनती, 99 दुआएँ और तस्बीह, ज़कात कैलकुलेटर। अंग्रेज़ी, हिंदी और उर्दू में। जनवरी 2027 में Google Play पर।">
 <meta property="og:title" content="AHILLA · The Islamic calendar that starts your day at Maghrib">
 <meta property="og:description" content="Prayer times, moon sighting, Ramadan, duas and your family's dates. In English, हिन्दी and اردو. Free Moon Calendar 2027 for India.">
 <meta property="og:image" content="https://basheerkazi.github.io/ahilla/img/og.png">
@@ -108,6 +108,15 @@ nav .links .btn { padding:8px 16px; color:var(--night); }
 .tasbih .ar { font-family:Amiri, serif; font-size:1.7rem; color:var(--pale); margin-top:22px; direction:rtl; }
 .tasbih small { color:#9FB9C2; margin-top:6px; }
 
+/* tools */
+.tools { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:28px; }
+.tools div { border:1px solid var(--line); border-radius:18px; padding:20px; }
+.tools svg { width:34px; height:34px; fill:none; stroke:var(--teal); stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+.tools b { display:block; color:var(--teal); font-size:1.05rem; margin:8px 0 4px; }
+.tools p { margin:0; color:var(--muted); font-size:.93rem; }
+@media (max-width:820px){ .tools{ grid-template-columns:1fr 1fr; } }
+@media (max-width:520px){ .tools{ grid-template-columns:1fr; } }
+
 /* ramadan */
 .rama h2 { color:#fff; }
 .hero .wrap > * { min-width:0; }
@@ -181,6 +190,7 @@ body { line-height:1.75; }
     <a class="logo" href="#top"><img src="../img/icon-192.png" alt=""><span>AHILLA</span></a>
     <div class="links">
       <a href="#features">ख़ूबियाँ</a>
+      <a href="#tools">टूल्स</a>
       <a href="#ramadan">रमज़ान 2027</a>
       <a href="#downloads">डाउनलोड</a>
       <a href="#feedback">राय दें</a>
@@ -286,7 +296,7 @@ body { line-height:1.75; }
       <div class="kicker">अलर्ट और परिवार</div>
       <h2>नरम याद, कभी परेशानी नहीं</h2>
       <ul>
-        <li>हर नमाज़ का वक़्त शुरू होने पर अलर्ट।</li>
+        <li>हर नमाज़ का वक़्त शुरू होने पर अलर्ट, ख़त्म होने तक की लाइव उलटी गिनती के साथ।</li>
         <li>फ़ज्र, ज़ुहर, अस्र या मग़रिब ख़त्म होने से लगभग 20 मिनट पहले: "अभी वक़्त है"। पहले अलर्ट पर "पढ़ ली" दबाएँ, तो यह याद नहीं आएगी।</li>
         <li>जुमे की सुबह जुमा की याद।</li>
         <li>फ़ैमिली वॉल: पूरे परिवार का एक साझा कैलेंडर। हिजरी सालगिरह, अक़ीक़ा और बरसी।</li>
@@ -295,6 +305,21 @@ body { line-height:1.75; }
     </div>
   </div>
 </div>
+
+<section id="tools" style="padding-top:24px">
+  <div class="wrap">
+    <div class="kicker">रोज़ के काम के टूल्स</div>
+    <h2>और वह सब जिसकी आपको रोज़ ज़रूरत है</h2>
+    <div class="tools">
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><b>क़िबला फ़ाइंडर</b><p>फ़ोन के साथ घूमने वाला कम्पास। काबा की तरफ़ होते ही स्क्रीन हरी हो जाती है। बिना इंटरनेट चलता है।</p></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M8 18h8"/></svg><b>ज़कात कैलकुलेटर</b><p>सोना, चाँदी, नक़द और कारोबार, रुपयों में, हनफ़ी निसाब के साथ। आपकी रक़में कभी सेव नहीं होतीं।</p></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg><b>तारीख़ बदलें</b><p>अंग्रेज़ी से हिजरी और वापस, निकाह, अक़ीक़ा या बरसी की तैयारी के लिए। एक टैप में शेयर करें।</p></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/></svg><b>अल्लाह के 99 नाम</b><p>हर नाम अरबी में, उसका उच्चारण, और आपकी ज़ुबान में मतलब।</p></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/><circle cx="12" cy="15" r="1.5"/></svg><b>भारत के त्योहार</b><p>होली, दीवाली, गणेश चतुर्थी, क्रिसमस और सरकारी छुट्टियाँ, भारत सरकार की सूची से।</p></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.5c1 1.3 2.2 2 3.5 2s2.5-.7 3.5-2M9 10h0M15 10h0"/></svg><b>एक टैप में राय</b><p>Today के नीचे किसी चेहरे पर टैप करें। हम हर पैग़ाम पढ़ते हैं।</p></div>
+    </div>
+  </div>
+</section>
 
 <section class="rama" id="ramadan">
   <div class="wrap">
@@ -409,7 +434,7 @@ body { line-height:1.75; }
     <details><summary>यह किस चाँद कमेटी को मानता है?</summary><p>जिसे आप चुनें। वह कमेटी चुनें जिसे आपकी मस्जिद मानती है, AHILLA उनके ऐलान पर चलेगा। ऐलान होने तक यह भारत के लिए चाँद का अंदाज़ा दिखाता है, और Settings में आप ख़ुद भी तारीख़ एक दिन आगे-पीछे कर सकते हैं।</p></details>
     <details><summary>क्या चाँद कैलेंडर की तारीख़ें पक्की हैं?</summary><p>नहीं। ये खगोल विज्ञान पर आधारित अंदाज़े हैं। रोज़े और ईद अपनी चाँद कमेटी के ऐलान के बाद ही शुरू करें। आपके इलाक़े में तारीख़ एक दिन अलग हो सकती है, और केरल कभी-कभी उत्तर भारत से एक दिन अलग होता है।</p></details>
     <details><summary>क्या अकाउंट चाहिए? मेरे डेटा का क्या?</summary><p>न अकाउंट, न साइन-अप। नमाज़ के वक़्त, रोज़े और दुआएँ आपके फ़ोन में रहते हैं। सिर्फ़ वही बाहर जाता है जो आप ख़ुद शेयर करें, जैसे फ़ैमिली वॉल की तारीख़ें या आपकी राय। <a href="../privacy.html">प्राइवेसी पॉलिसी</a> (अंग्रेज़ी में) पढ़ें।</p></details>
-    <details><summary>क्या यह बिना इंटरनेट चलता है?</summary><p>हाँ। नमाज़ के वक़्त, कैलेंडर, दुआएँ और तस्बीह बिना इंटरनेट चलते हैं। चाँद के ऐलान और फ़ैमिली वॉल के लिए इंटरनेट लगता है।</p></details>
+    <details><summary>क्या यह बिना इंटरनेट चलता है?</summary><p>हाँ। नमाज़ के वक़्त, कैलेंडर, दुआएँ, तस्बीह, क़िबला कम्पास और ज़कात कैलकुलेटर बिना इंटरनेट चलते हैं। चाँद के ऐलान और फ़ैमिली वॉल के लिए इंटरनेट लगता है।</p></details>
     <details><summary>क्या iPhone के लिए है?</summary><p>अभी नहीं। AHILLA पहले Android के लिए है। ऊपर वाली हिजरी कैलेंडर फ़ीड iPhone पर आज भी चलती है।</p></details>
     <details><summary>क्या मेरी मस्जिद AHILLA के साथ जुड़ सकती है?</summary><p>जी हाँ, हमें लिखें: <a href="mailto:ahilla.app@gmail.com?subject=Masjid%20and%20AHILLA">ahilla.app@gmail.com</a>। हम पुणे की मस्जिदों से शुरुआत कर रहे हैं।</p></details>
   </div>
