@@ -268,7 +268,7 @@ chip_labels:
 answers:
   en:
     greet: Hi! 👋 I answer common questions about the Maharashtra Board SSC and HSC exams 2027. Tap a topic or type your question.
-    dates: '<b>SSC (Class 10)</b> written papers: 15 Feb to 11 Mar 2027.<br><b>HSC (Class 12)</b> written papers: 8 Feb to 16 Mar 2027.<br>As announced by the board on 17 Sep 2026. <a href=''{cd}''>See the live countdown</a>.'
+    dates: '<b>SSC (Class 10)</b> written papers: 15 Feb to 15 Mar 2027.<br><b>HSC (Class 12)</b> written papers: 8 Feb to 16 Mar 2027.<br>As announced by the board on 17 Sep 2026. <a href=''{cd}''>See the live countdown</a>.'
     practical: '<b>HSC</b> practicals, orals and internal assessment: 20 Jan to 6 Feb 2027.<br><b>SSC</b>: 28 Jan to 13 Feb 2027.<br>This week, check that every journal is complete and signed. Your school gives the exact practical date.'
     timetable: The subject-wise timetable has not been released yet. As soon as the board publishes it, it goes on the <a href='{hd}'>Help Desk</a>. Subscribe there to get it by email.
     sample: 'The board''s own sample question papers are free: on <a href=''https://mahahsscboard.in'' target=''_blank'' rel=''noopener''>mahahsscboard.in</a> open Student Login, then Sample Question Paper, then pick HSC or SSC and the subject.'
@@ -292,7 +292,7 @@ answers:
     - 'Right now: <b>exam mode</b>. 7 to 8 hours of sleep, no new topics, revise only from your own notes, and check the hall ticket and centre the day before.'
   mr:
     greet: नमस्कार! 👋 महाराष्ट्र बोर्ड SSC आणि HSC परीक्षा 2027 बद्दलच्या नेहमीच्या प्रश्नांची उत्तरे मी देतो. विषय निवडा किंवा तुमचा प्रश्न लिहा.
-    dates: '<b>SSC (इयत्ता 10 वी)</b> लेखी परीक्षा: 15 फेब्रुवारी ते 11 मार्च 2027.<br><b>HSC (इयत्ता 12 वी)</b> लेखी परीक्षा: 8 फेब्रुवारी ते 16 मार्च 2027.<br>मंडळाने 17 सप्टेंबर 2026 रोजी जाहीर केल्याप्रमाणे. <a href=''{cd}''>लाइव्ह काउंटडाउन पाहा</a>.'
+    dates: '<b>SSC (इयत्ता 10 वी)</b> लेखी परीक्षा: 15 फेब्रुवारी ते 15 मार्च 2027.<br><b>HSC (इयत्ता 12 वी)</b> लेखी परीक्षा: 8 फेब्रुवारी ते 16 मार्च 2027.<br>मंडळाने 17 सप्टेंबर 2026 रोजी जाहीर केल्याप्रमाणे. <a href=''{cd}''>लाइव्ह काउंटडाउन पाहा</a>.'
     practical: '<b>HSC</b> प्रात्यक्षिक, तोंडी आणि अंतर्गत मूल्यमापन: 20 जानेवारी ते 6 फेब्रुवारी 2027.<br><b>SSC</b>: 28 जानेवारी ते 13 फेब्रुवारी 2027.<br>या आठवड्यात सर्व जर्नल पूर्ण आणि सही केलेले आहेत का ते तपासा. प्रात्यक्षिकाची नेमकी तारीख शाळा देईल.'
     timetable: विषयनिहाय वेळापत्रक अजून जाहीर झालेले नाही. मंडळाने जाहीर करताच ते <a href='{hd}'>हेल्प डेस्क</a>वर दिले जाईल.
     sample: 'मंडळाच्या नमुना प्रश्नपत्रिका मोफत आहेत: <a href=''https://mahahsscboard.in'' target=''_blank'' rel=''noopener''>mahahsscboard.in</a> वर Student Login, नंतर Sample Question Paper उघडा आणि HSC किंवा SSC व विषय निवडा.'
@@ -316,7 +316,7 @@ answers:
     - 'आत्ता: <b>परीक्षा मोड</b>. 7 ते 8 तास झोप, नवीन विषय नको, फक्त स्वतःच्या नोट्समधून उजळणी, आणि आदल्या दिवशी हॉल तिकीट व केंद्र तपासा.'
   hi:
     greet: नमस्ते! 👋 मैं महाराष्ट्र बोर्ड SSC और HSC परीक्षा 2027 के आम सवालों के जवाब देता हूँ। कोई विषय चुनें या अपना सवाल लिखें।
-    dates: '<b>SSC (कक्षा 10वीं)</b> लिखित परीक्षा: 15 फ़रवरी से 11 मार्च 2027.<br><b>HSC (कक्षा 12वीं)</b> लिखित परीक्षा: 8 फ़रवरी से 16 मार्च 2027.<br>बोर्ड द्वारा 17 सितंबर 2026 को घोषित। <a href=''{cd}''>लाइव काउंटडाउन देखें</a>।'
+    dates: '<b>SSC (कक्षा 10वीं)</b> लिखित परीक्षा: 15 फ़रवरी से 15 मार्च 2027.<br><b>HSC (कक्षा 12वीं)</b> लिखित परीक्षा: 8 फ़रवरी से 16 मार्च 2027.<br>बोर्ड द्वारा 17 सितंबर 2026 को घोषित। <a href=''{cd}''>लाइव काउंटडाउन देखें</a>।'
     practical: '<b>HSC</b> प्रैक्टिकल, मौखिक और आंतरिक मूल्यांकन: 20 जनवरी से 6 फ़रवरी 2027.<br><b>SSC</b>: 28 जनवरी से 13 फ़रवरी 2027.<br>इसी हफ़्ते देख लें कि सारे जर्नल पूरे और साइन किए हुए हैं। प्रैक्टिकल की सही तारीख़ स्कूल बताएगा।'
     timetable: विषय-वार टाइमटेबल अभी जारी नहीं हुआ है। बोर्ड के जारी करते ही यह <a href='{hd}'>हेल्प डेस्क</a> पर आ जाएगा।
     sample: 'बोर्ड के अपने सैंपल प्रश्नपत्र मुफ़्त हैं: <a href=''https://mahahsscboard.in'' target=''_blank'' rel=''noopener''>mahahsscboard.in</a> पर Student Login, फिर Sample Question Paper खोलें और HSC या SSC व विषय चुनें।'
@@ -340,7 +340,7 @@ answers:
     - 'अभी: <b>परीक्षा मोड</b>। 7 से 8 घंटे की नींद, कोई नया टॉपिक नहीं, सिर्फ़ अपने नोट्स से रिवीज़न, और एक दिन पहले हॉल टिकट और केंद्र जाँच लें।'
   ur:
     greet: السلام علیکم! 👋 میں مہاراشٹر بورڈ SSC اور HSC امتحان 2027 کے عام سوالوں کے جواب دیتا ہوں۔ کوئی موضوع چنیں یا اپنا سوال لکھیں۔
-    dates: '<b>SSC (دسویں)</b> تحریری پرچے: 15 فروری تا 11 مارچ 2027۔<br><b>HSC (بارہویں)</b> تحریری پرچے: 8 فروری تا 16 مارچ 2027۔<br>بورڈ کے 17 ستمبر 2026 کے اعلان کے مطابق۔ <a href=''{cd}''>لائیو کاؤنٹ ڈاؤن دیکھیں</a>۔'
+    dates: '<b>SSC (دسویں)</b> تحریری پرچے: 15 فروری تا 15 مارچ 2027۔<br><b>HSC (بارہویں)</b> تحریری پرچے: 8 فروری تا 16 مارچ 2027۔<br>بورڈ کے 17 ستمبر 2026 کے اعلان کے مطابق۔ <a href=''{cd}''>لائیو کاؤنٹ ڈاؤن دیکھیں</a>۔'
     practical: '<b>HSC</b> پریکٹیکل، زبانی اور داخلی جانچ: 20 جنوری تا 6 فروری 2027۔<br><b>SSC</b>: 28 جنوری تا 13 فروری 2027۔<br>اسی ہفتے دیکھ لیں کہ تمام جرنل مکمل اور دستخط شدہ ہیں۔ پریکٹیکل کی صحیح تاریخ اسکول بتائے گا۔'
     timetable: مضمون وار ٹائم ٹیبل ابھی جاری نہیں ہوا۔ بورڈ کے جاری کرتے ہی یہ <a href='{hd}'>ہیلپ ڈیسک</a> پر آ جائے گا۔
     sample: 'بورڈ کے اپنے نمونہ پرچے مفت ہیں: <a href=''https://mahahsscboard.in'' target=''_blank'' rel=''noopener''>mahahsscboard.in</a> پر Student Login، پھر Sample Question Paper کھولیں اور HSC یا SSC اور مضمون منتخب کریں۔'
