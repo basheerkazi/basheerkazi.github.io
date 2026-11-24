@@ -283,7 +283,7 @@ answers:
     stream: 'Choosing a stream after 10th is a big decision. Start with three questions: which subjects does your child enjoy, which do they score in, and which careers excite them? The Kit has a stream worksheet, and you can talk it through with Basheer Sir on WhatsApp.'
     contact: 'Basheer Sir answers personally on WhatsApp:'
     fallback: 'I don''t know that one yet. Ask Basheer Sir directly on WhatsApp:'
-    price: 'Launch price ₹249 till 30 Nov. '
+    price: 'Special price ₹249 till the board exams. '
     phases:
     - 'Right now: <b>finish the syllabus by 30 Nov</b>, including the chapters your child avoids. Mark each chapter 1 to 5; anything 3 or below goes on a weak list, one weak chapter a day.'
     - 'Right now: <b>revision round 1</b>. One subject block a day, then 20 minutes of recall from memory with the book closed. Sunday evening, 10 minutes together: what got done, what''s next.'
@@ -307,7 +307,7 @@ answers:
     stream: '10 वी नंतर शाखा निवडणे हा मोठा निर्णय आहे. तीन प्रश्नांनी सुरुवात करा: मुलाला कोणते विषय आवडतात, कोणत्या विषयांत गुण चांगले येतात, आणि कोणते करिअर आकर्षित करते? किटमध्ये शाखा निवडीसाठी वर्कशीट आहे, आणि तुम्ही WhatsApp वर बशीर सरांशी बोलू शकता.'
     contact: 'बशीर सर WhatsApp वर स्वतः उत्तर देतात:'
     fallback: 'याचे उत्तर अजून माझ्याकडे नाही. थेट बशीर सरांना WhatsApp वर विचारा:'
-    price: '30 नोव्हेंबरपर्यंत लाँच किंमत ₹249. '
+    price: 'बोर्ड परीक्षेपर्यंत विशेष किंमत ₹249. '
     phases:
     - 'आत्ता: <b>30 नोव्हेंबरपर्यंत अभ्यासक्रम पूर्ण करा</b>, मूल टाळत असलेली प्रकरणेही. प्रत्येक प्रकरणाला 1 ते 5 गुण द्या; 3 किंवा कमी असलेली प्रकरणे कमकुवत यादीत, रोज एक.'
     - 'आत्ता: <b>उजळणीची पहिली फेरी</b>. रोज एका विषयाचा भाग, मग पुस्तक बंद ठेवून 20 मिनिटे आठवून लिहा. रविवारी संध्याकाळी 10 मिनिटे एकत्र: काय झाले, पुढे काय.'
@@ -331,7 +331,7 @@ answers:
     stream: '10वीं के बाद स्ट्रीम चुनना बड़ा फ़ैसला है। तीन सवालों से शुरू करें: बच्चे को कौन से विषय पसंद हैं, किनमें नंबर अच्छे आते हैं, और कौन से करियर उसे आकर्षित करते हैं? किट में स्ट्रीम चुनने की वर्कशीट है, और आप WhatsApp पर बशीर सर से बात कर सकते हैं।'
     contact: 'बशीर सर WhatsApp पर ख़ुद जवाब देते हैं:'
     fallback: 'इसका जवाब अभी मेरे पास नहीं है। सीधे बशीर सर से WhatsApp पर पूछें:'
-    price: 'लॉन्च कीमत ₹249, 30 नवंबर तक। '
+    price: 'बोर्ड परीक्षा तक विशेष कीमत ₹249। '
     phases:
     - 'अभी: <b>30 नवंबर तक सिलेबस पूरा करें</b>, वे अध्याय भी जिनसे बच्चा बचता है। हर अध्याय को 1 से 5 अंक दें; 3 या उससे कम वाले कमज़ोर सूची में, रोज़ एक।'
     - 'अभी: <b>रिवीज़न का पहला दौर</b>। रोज़ एक विषय का हिस्सा, फिर किताब बंद करके 20 मिनट याद से लिखें। रविवार शाम 10 मिनट साथ बैठें: क्या हुआ, आगे क्या।'
@@ -355,7 +355,7 @@ answers:
     stream: 'دسویں کے بعد اسٹریم چننا بڑا فیصلہ ہے۔ تین سوالوں سے شروع کریں: بچے کو کون سے مضامین پسند ہیں، کن میں نمبر اچھے آتے ہیں، اور کون سے کیریئر اسے متاثر کرتے ہیں؟ کٹ میں اسٹریم کے انتخاب کی ورک شیٹ ہے، اور آپ واٹس ایپ پر بشیر سر سے بات کر سکتے ہیں۔'
     contact: 'بشیر سر واٹس ایپ پر خود جواب دیتے ہیں:'
     fallback: 'اس کا جواب ابھی میرے پاس نہیں۔ براہِ راست بشیر سر سے واٹس ایپ پر پوچھیں:'
-    price: 'لانچ قیمت ₹249، 30 نومبر تک۔ '
+    price: 'بورڈ امتحان تک خصوصی قیمت ₹249۔ '
     phases:
     - 'ابھی: <b>30 نومبر تک نصاب مکمل کریں</b>، وہ ابواب بھی جن سے بچہ بچتا ہے۔ ہر باب کو 1 سے 5 نمبر دیں؛ 3 یا کم والے کمزور فہرست میں، روزانہ ایک۔'
     - 'ابھی: <b>دہرائی کا پہلا دور</b>۔ روزانہ ایک مضمون کا حصہ، پھر کتاب بند کر کے 20 منٹ یاد سے لکھیں۔ اتوار کی شام 10 منٹ ساتھ بیٹھیں: کیا ہوا، آگے کیا۔'
@@ -371,4 +371,4 @@ phase_starts:
 - '2026-12-28'
 - '2027-01-18'
 - '2027-02-08'
-price_until: '2026-12-01'
+price_until: '2027-03-31'
