@@ -19,7 +19,7 @@ Bookmark this page and share it with any family that has a child in the boards t
 | HSC (Class 12) practicals, orals, internal assessment | 20 Jan to 6 Feb 2027 |
 | HSC (Class 12) written papers | 8 Feb to 16 Mar 2027 |
 | SSC (Class 10) practicals, orals, internal assessment | 28 Jan to 13 Feb 2027 |
-| SSC (Class 10) written papers | 15 Feb to 11 Mar 2027 |
+| SSC (Class 10) written papers | 15 Feb to 15 Mar 2027 |
 | Subject-wise timetable | Not yet released. It will be added here as soon as the board publishes it. |
 
 <p class="small">As announced by the Maharashtra State Board on 17 Sep 2026. Always confirm on <a href="https://mahahsscboard.in">mahahsscboard.in</a> and with your school.</p>
