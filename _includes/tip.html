@@ -1,0 +1,16 @@
+<section class="card tip" aria-label="Tip of the day">
+<h3>Aaj ka tip</h3>
+<p id="tip-text">{{ site.data.tips[0] }}</p>
+<p><a href="{{ '/tips/' | relative_url }}">Pichle tips dekhein</a></p>
+<a class="btn wa tip-share" data-goatcounter-click="tip-share" href="#" target="_blank" rel="noopener">WhatsApp par share karein</a>
+</section>
+<script>
+(function(){
+  var tips={{ site.data.tips | jsonify }};
+  var day=Math.floor((Date.now()+19800000)/86400000);
+  var text=tips[day%tips.length];
+  document.getElementById('tip-text').textContent=text;
+  var a=document.querySelector('.tip-share');
+  a.href='https://wa.me/?text='+encodeURIComponent(text+'\n'+'{{ '/tips/' | absolute_url }}');
+})();
+</script>
