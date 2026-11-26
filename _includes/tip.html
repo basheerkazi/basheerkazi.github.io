@@ -11,6 +11,6 @@
   var text=tips[day%tips.length];
   document.getElementById('tip-text').textContent=text;
   var a=document.querySelector('.tip-share');
-  a.href='https://wa.me/?text='+encodeURIComponent(text+'\n'+'{{ '/tips/' | absolute_url }}');
+  a.href='https://wa.me/?text='+encodeURIComponent(text+'\n'+'{{ '/' | absolute_url }}');
 })();
 </script>
