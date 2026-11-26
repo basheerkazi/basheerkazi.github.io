@@ -56,6 +56,12 @@ td{border:1px solid var(--line);padding:8px;vertical-align:top}
 .langmenu a{display:block;color:var(--ink);text-decoration:none;padding:7px 12px;border-radius:6px;font-size:16px}
 .langmenu a:hover{background:var(--soft)}
 .langmenu a.cur{font-weight:700;color:var(--orange)}
+/* on phones the switcher sits at the screen edge, so open the menu inward and keep it on screen */
+@media (max-width:600px){
+  .langmenu{inset-inline-end:auto;inset-inline-start:0;max-width:calc(100vw - 32px)}
+  .langmenu a{padding:11px 14px;font-size:17px}
+  .langmenu a:hover,.langmenu a:focus{background:var(--soft)}
+}
 /* scripts */
 html[lang=mr] body,html[lang=hi] body{font-family:system-ui,-apple-system,"Segoe UI","Noto Sans Devanagari","Nirmala UI",Mangal,sans-serif}
 html[lang=ur] body{font-family:"Noto Nastaliq Urdu","Jameel Noori Nastaleeq","Noto Naskh Arabic","Segoe UI",Tahoma,sans-serif;line-height:2.1}
